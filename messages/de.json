@@ -1,0 +1,290 @@
+{
+	"Hero": {
+		"title": "Estetik Med",
+		"sub_title": "ÄSTHETISCHE UND REGENERATIVE MEDIZIN-SCHÖNHEITSINJEKTION",
+		"button_1": "Anmelden",
+		"button_2": "Beratung",
+		"menu": [
+			"Admin-Panel",
+			"Über das Studio",
+			"Dienstleistungen",
+			"Blog",
+			"FAQ",
+			"KONTAKT",
+			"Facebook"
+		],
+		"register_form": "Melden Sie sich beim Admin-Panel an",
+		"btn_enter": "Eingang"
+	},
+	"About": {
+		"title": "Über das Studio",
+		"name": "EsteticMed – Kosmetologie als medizinische Disziplin",
+		"description": "In unserem Studio treffen Schönheit und Professionalität aufeinander. Wir bieten ein breites Spektrum an Kosmetik- und Schönheitsbehandlungen – von Gesichts- und Körperbehandlungen über Gerätetherapien bis hin zu individuell zugeschnittenen Verjüngungs- und Regenerationsprogrammen. Ein Team erfahrener Spezialisten sorgt nicht nur für ästhetische Ergebnisse, sondern auch für den Komfort und die Sicherheit jedes Besuchers. Wir verbinden moderne Technologie mit der Pflege natürlicher Schönheit und des Wohlbefindens. Die Einrichtung unseres Studios ist so gestaltet, dass sie Entspannung fördert und Ihnen einen Moment der Auszeit vom Alltag ermöglicht. Hier können Sie sich außergewöhnlich fühlen und unseren Experten vertrauen, die Ihre natürliche Schönheit unterstreichen.",
+		"description_large": "Die Gründerin von EstetikMed, Yanina Hanchar, ist die Chefspezialistin des Studios. Nach ihrem Abschluss an der medizinischen Fakultät in Weißrussland arbeitete sie in einer Klinik und sammelte über 10 Jahre solide klinische Erfahrung in der Patientenversorgung und Diagnostik. Anschließend absolvierte sie ein pädagogisches Studium in körperlicher Rehabilitation und wurde Ausbilderin für Bewegungstherapie, was ihr ein tiefes Verständnis der funktionellen Anatomie und Muskelarbeit vermittelte. Nach ihrem Umzug nach Polen widmete sie sich erneut der medizinischen Ausbildung – sie schloss ihr Studium an der Medizinischen Hochschule ab, erwarb einen Bachelor-Abschluss und die Berechtigung, in Polen als Ärztin zu praktizieren. Sie arbeitete in einem Krankenhaus und verbesserte ständig ihre Fähigkeiten. Dieser Weg – vom öffentlichen Gesundheitsdienst zur Krankenhauspraxis – ist zu einem soliden Fundament geworden, auf dem Yanina ihre ästhetische Praxis aufbaut. Ihre Berufsphilosophie ist einfach: Ästhetik sollte sicher, natürlich und wissenschaftlich fundiert sein. Deshalb legte sie bei der Gründung ihrer eigenen Praxis Wert auf medizinische Qualifikationen und ein umfassendes Verständnis der Gesichtsanatomie und Muskelphysiologie. Ihre ersten Schritte machte sie mit der Anmietung kleiner Büros, wo sie Erfahrungen mit ästhetischen Injektionen und kosmetischen Behandlungen sammelte und schließlich ihren eigenen Salon eröffnete – Estetik-Med. Der Name spiegelt sein Credo wider: Ästhetik + Medizin. Warum ist es für Sie wichtig: Die Arbeit mit Injektionen und ästhetischen Geräten erfordert nicht nur ein Gespür für Ästhetik, sondern auch tiefes medizinisches Wissen – die Fähigkeit, Risiken einzuschätzen, die geeignete Methode und Vorbereitung auszuwählen und Gewebereaktionen vorherzusagen. Bei EstetikMed verbinden wir klinische Vorsicht mit künstlerischer Sensibilität: Wir streben nach einer natürlichen Wirkung, die die Individualität betont, ohne das Gesicht zu maskieren. Nutristik ist ein eigener Tätigkeitsbereich – Yanina analysiert die Ernährung, mögliche Vitamin- und Nährstoffmängel und bezieht Ernährungs- und Ergänzungsempfehlungen in den Therapieplan ein. Selbst die besten Injektionsbehandlungen zeigen oft nur begrenzte Wirkung, wenn der Körper mit Mangelerscheinungen oder einer ungesunden Lebensweise zu kämpfen hat. Ein umfassender Ansatz – ästhetische Behandlungen + Ernährungs- und Lebensstilkorrekturen – ermöglicht es Ihnen, länger anhaltende und sichtbarere Ergebnisse zu erzielen. Bei EstetikMed erhalten Sie: • ein sicherer, individueller Behandlungsplan basierend auf klinischer Erfahrung und anatomischen Kenntnissen, • ein „Alles rund um Sie“-Ansatz: Diagnostik, Injektions- und Gerätemethoden sowie Ernährungsempfehlungen, • eine realistische Einschätzung der Erwartungen und ein auf Ihre Gesundheit ausgerichteter Behandlungsplan, • aufmerksamer, respektvoller Umgang in jeder Phase – von der Beratung bis zur Nachbehandlung. Wenn Sie eine professionelle, medizinisch begründete Herangehensweise an die Ästhetik suchen, laden wir Sie zu einem Beratungsgespräch ein. Gemeinsam entwickeln wir eine sichere Strategie, um die erwarteten Ergebnisse zu erzielen, abgestimmt auf Ihren Lebensstil und Ihre individuellen Bedürfnisse.",
+		"year": "Jahrelange Erfahrung",
+		"clients": "Zufriedene Kunden",
+		"procedure": "Arten von Verfahren",
+		"procents": "Zufriedenheitsgrad",
+		"more": "Mehr lesen",
+		"btn": "Beratung"
+	},
+	"Services": {
+		"title": "Leistungen",
+		"btn_reservation": "Melden Sie sich an",
+		"btn_consultation": "Beratung",
+		"services": [
+			"Ästhetische und regenerative Medizin",
+			"Laser-Haarentfernung für Frauen",
+			"Laser-Haarentfernung für Männer"
+		],
+		"med_est_i_reg": [
+			{
+				"name": "Lippenvergrößerung 1 ml",
+				"price": "900",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Juviderm für Lippen 1 ml",
+				"price": "1200",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Botox für das Gesicht ist eine Zone",
+				"price": "500",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Botox für das Gesicht in zwei Zonen",
+				"price": "800",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Botox für das Gesicht in drei Zonen",
+				"price": "1000",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Botox für das ganze Gesicht",
+				"price": "1800",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			}
+		],
+		"dep_las_dla_kob": [
+			{
+				"name": "Schnurrbart",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Bart",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Bart + Schnurrbart",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Wangen",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Nacken",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Das ganze Gesicht",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			}
+		],
+		"dep_las_dla_mez": [
+			{
+				"name": "Wangen",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Achseln",
+				"price": "160",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Bart",
+				"price": "160",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Schnurrbart",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Bauch",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			},
+			{
+				"name": "Brust",
+				"price": "180",
+				"currency": "PLN",
+				"description": "Behandlung mit dem renommierten Juvederm-Präparat."
+			}
+		]
+	},
+
+	"Features": {
+		"imageTextTop": "Warum ESTETICMED",
+		"imageTextBottom": "Wenn Sie sich für ESTETIKMED entscheiden, legen Sie Wert auf Professionalität und Qualität, die über Jahre hinweg Vertrauen schafft.",
+		"item_1": {
+			"title": "Umfassende Betreuung – von der Beratung bis zur Behandlung",
+			"text": "Wir bieten den gesamten Prozess: professionelle Hautdiagnose, individuell ausgewählter Behandlungsplan und Nachbehandlung."
+		},
+		"item_2": {
+			"title": "Schnelle und sichere Verfahren",
+			"text": "Wir nutzen moderne Technologien, die die Behandlungsdauer verkürzen und maximalen Komfort gewährleisten."
+		},
+		"item_3": {
+			"title": "Erfahrenes und qualifiziertes Team",
+			"text": "Unsere Spezialisten verfügen über langjährige Erfahrung in der Kosmetologie und ästhetischen Medizin."
+		},
+		"item_4": {
+			"title": "Individueller Ansatz",
+			"text": "Jeder Kunde erhält einen individuellen Pflegeplan, der auf die Bedürfnisse seiner Haut abgestimmt ist."
+		},
+		"item_5": {
+			"title": "Patientenkomfort und Sicherheit",
+			"text": "Wir halten die höchsten Hygiene- und Sicherheitsstandards ein, um sicherzustellen, dass jede Behandlung rundum angenehm ist."
+		}
+	},
+	"Specialist": {
+		"name": "Yanina Hanchar",
+		"description": "Die Gründerin des Studios, Yanina, ist Krankenschwester mit medizinischer Ausbildung und langjähriger klinischer Erfahrung – sie hat in einer Klinik und einem Krankenhaus gearbeitet, verfügt über einen Bachelor-Abschluss und das Recht, ihren Beruf in Polen auszuüben. Er ist auf ästhetische Medizin spezialisiert und konzentriert sich dabei auf Anatomie, Injektionssicherheit und einen umfassenden Ansatz – er kombiniert ästhetische Behandlungen mit Ernährungskorrekturen für dauerhafte Effekte."
+	},
+
+	"Articles": {
+		"title": "Blog",
+		"btn": "Alle Artikel",
+		"article_0": {
+			"title": "Wie bereiten Sie Ihre Haut auf eine kosmetische Behandlung vor?",
+			"text": "Die richtige Vorbereitung der Haut ist der Schlüssel zur Wirksamkeit und Sicherheit jedes Eingriffs. Informieren Sie sich vor dem Besuch im Büro, was Sie vermeiden und worauf Sie besonders achten sollten. \n1. Hygiene und häusliche Pflege. \nEinige Tage vor der Behandlung sollten Sie Ihre Haut sorgfältig mit sanfter Kosmetik reinigen. Vermeiden Sie aggressive Peelings oder Produkte mit hohem Säuregehalt, die die Haut reizen können. Die Haut sollte in einem möglichst natürlichen Zustand sein, damit der Facharzt die besten Lösungen wählen kann. \n2. Vermeiden Sie Sonne und Solarium.\nGebräunte oder gereizte Haut ist empfindlicher und kann stärker auf die Wirkung von Präparaten reagieren. Vermeiden Sie daher etwa eine Woche vor Ihrem geplanten Besuch das Solarium und intensives Sonnenbaden. Wenn Sie sich unbedingt in der Sonne aufhalten müssen, verwenden Sie Cremes mit einem hohen Lichtschutzfaktor. \n3. Verzichten Sie auf Alkohol und Zigaretten.\nEs wird nicht empfohlen, 24–48 Stunden vor dem Eingriff Alkohol zu trinken oder zu rauchen. Alkohol und Nikotin können die Durchblutung beeinträchtigen, was das Risiko von Blutergüssen erhöht und den Regenerationsprozess der Haut verlangsamt. \n4. Beratung und ärztliches Gespräch\nEs ist sehr wichtig, den Facharzt beim ersten Besuch über alle chronischen Erkrankungen, eingenommene Medikamente und mögliche Allergien zu informieren. Dadurch ist es möglich, die sicherste Behandlungsmethode zu wählen. \n5. Ruhe und Flüssigkeitszufuhr. Versuchen Sie am Tag vor dem Eingriff, gut zu schlafen und ausreichend Wasser zu trinken. Ein ausgeruhter Körper reagiert besser auf die Behandlung und eine ausreichende Flüssigkeitszufuhr unterstützt die Regenerationsprozesse der Haut. \n6. Was ist am Tag des Eingriffs zu vermeiden? \nVerwenden Sie kein Make-up oder fetthaltige Cremes – die Haut sollte sauber und frisch sein. \nVermeiden Sie intensive körperliche Aktivität unmittelbar vor Ihrem Besuch. \nTrinken Sie nicht zu viel Kaffee oder Energy-Drinks – diese können die Durchblutung und die Hautempfindlichkeit beeinträchtigen. \n7. Fachkundige Betreuung\nJede Haut ist anders, daher ist eine individuelle Beratung in der Praxis die beste Lösung. Der Spezialist berät Sie, wie Sie sich auf eine bestimmte Behandlung vorbereiten können – sei es Botox, Mesotherapie, Reinigungsbehandlung oder chemisches Peeling. \n👉 Eine gut vorbereitete Haut regeneriert sich schneller, die Wirkung der Behandlung ist besser sichtbar und der gesamte Prozess ist angenehm und sicher."
+		},
+		"article_1": {
+			"title": "Wie bereiten Sie Ihre Haut auf eine kosmetische Behandlung vor?",
+			"text": "Die richtige Vorbereitung der Haut ist der Schlüssel zur Wirksamkeit und Sicherheit jedes Eingriffs. Informieren Sie sich vor dem Besuch im Büro, was Sie vermeiden und worauf Sie besonders achten sollten. \n1. Hygiene und häusliche Pflege. \nEinige Tage vor der Behandlung sollten Sie Ihre Haut sorgfältig mit sanfter Kosmetik reinigen. Vermeiden Sie aggressive Peelings oder Produkte mit hohem Säuregehalt, die die Haut reizen können. Die Haut sollte in einem möglichst natürlichen Zustand sein, damit der Facharzt die besten Lösungen wählen kann. \n2. Vermeiden Sie Sonne und Solarium.\nGebräunte oder gereizte Haut ist empfindlicher und kann stärker auf die Wirkung von Präparaten reagieren. Vermeiden Sie daher etwa eine Woche vor Ihrem geplanten Besuch das Solarium und intensives Sonnenbaden. Wenn Sie sich unbedingt in der Sonne aufhalten müssen, verwenden Sie Cremes mit einem hohen Lichtschutzfaktor. \n3. Verzichten Sie auf Alkohol und Zigaretten.\nEs wird nicht empfohlen, 24–48 Stunden vor dem Eingriff Alkohol zu trinken oder zu rauchen. Alkohol und Nikotin können die Durchblutung beeinträchtigen, was das Risiko von Blutergüssen erhöht und den Regenerationsprozess der Haut verlangsamt. \n4. Beratung und ärztliches Gespräch\nEs ist sehr wichtig, den Facharzt beim ersten Besuch über alle chronischen Erkrankungen, eingenommene Medikamente und mögliche Allergien zu informieren. Dadurch ist es möglich, die sicherste Behandlungsmethode zu wählen. \n5. Ruhe und Flüssigkeitszufuhr. Versuchen Sie am Tag vor dem Eingriff, gut zu schlafen und ausreichend Wasser zu trinken. Ein ausgeruhter Körper reagiert besser auf die Behandlung und eine ausreichende Flüssigkeitszufuhr unterstützt die Regenerationsprozesse der Haut. \n6. Was ist am Tag des Eingriffs zu vermeiden? \nVerwenden Sie kein Make-up oder fetthaltige Cremes – die Haut sollte sauber und frisch sein. \nVermeiden Sie intensive körperliche Aktivität unmittelbar vor Ihrem Besuch. \nTrinken Sie nicht zu viel Kaffee oder Energy-Drinks – diese können die Durchblutung und die Hautempfindlichkeit beeinträchtigen. \n7. Fachkundige Betreuung\nJede Haut ist anders, daher ist eine individuelle Beratung in der Praxis die beste Lösung. Der Spezialist berät Sie, wie Sie sich auf eine bestimmte Behandlung vorbereiten können – sei es Botox, Mesotherapie, Reinigungsbehandlung oder chemisches Peeling. \n👉 Eine gut vorbereitete Haut regeneriert sich schneller, die Wirkung der Behandlung ist besser sichtbar und der gesamte Prozess ist angenehm und sicher."
+		},
+		"article_2": {
+			"title": "Wie bereiten Sie Ihre Haut auf eine kosmetische Behandlung vor?",
+			"text": "Die richtige Vorbereitung der Haut ist der Schlüssel zur Wirksamkeit und Sicherheit jedes Eingriffs. Informieren Sie sich vor dem Besuch im Büro, was Sie vermeiden und worauf Sie besonders achten sollten. \n1. Hygiene und häusliche Pflege. \nEinige Tage vor der Behandlung sollten Sie Ihre Haut sorgfältig mit sanfter Kosmetik reinigen. Vermeiden Sie aggressive Peelings oder Produkte mit hohem Säuregehalt, die die Haut reizen können. Die Haut sollte in einem möglichst natürlichen Zustand sein, damit der Facharzt die besten Lösungen wählen kann. \n2. Vermeiden Sie Sonne und Solarium.\nGebräunte oder gereizte Haut ist empfindlicher und kann stärker auf die Wirkung von Präparaten reagieren. Vermeiden Sie daher etwa eine Woche vor Ihrem geplanten Besuch das Solarium und intensives Sonnenbaden. Wenn Sie sich unbedingt in der Sonne aufhalten müssen, verwenden Sie Cremes mit einem hohen Lichtschutzfaktor. \n3. Verzichten Sie auf Alkohol und Zigaretten.\nEs wird nicht empfohlen, 24–48 Stunden vor dem Eingriff Alkohol zu trinken oder zu rauchen. Alkohol und Nikotin können die Durchblutung beeinträchtigen, was das Risiko von Blutergüssen erhöht und den Regenerationsprozess der Haut verlangsamt. \n4. Beratung und ärztliches Gespräch\nEs ist sehr wichtig, den Facharzt beim ersten Besuch über alle chronischen Erkrankungen, eingenommene Medikamente und mögliche Allergien zu informieren. Dadurch ist es möglich, die sicherste Behandlungsmethode zu wählen. \n5. Ruhe und Flüssigkeitszufuhr. Versuchen Sie am Tag vor dem Eingriff, gut zu schlafen und ausreichend Wasser zu trinken. Ein ausgeruhter Körper reagiert besser auf die Behandlung und eine ausreichende Flüssigkeitszufuhr unterstützt die Regenerationsprozesse der Haut. \n6. Was ist am Tag des Eingriffs zu vermeiden? \nVerwenden Sie kein Make-up oder fetthaltige Cremes – die Haut sollte sauber und frisch sein. \nVermeiden Sie intensive körperliche Aktivität unmittelbar vor Ihrem Besuch. \nTrinken Sie nicht zu viel Kaffee oder Energy-Drinks – diese können die Durchblutung und die Hautempfindlichkeit beeinträchtigen. \n7. Fachkundige Betreuung\nJede Haut ist anders, daher ist eine individuelle Beratung in der Praxis die beste Lösung. Der Spezialist berät Sie, wie Sie sich auf eine bestimmte Behandlung vorbereiten können – sei es Botox, Mesotherapie, Reinigungsbehandlung oder chemisches Peeling. \n👉 Eine gut vorbereitete Haut regeneriert sich schneller, die Wirkung der Behandlung ist besser sichtbar und der gesamte Prozess ist angenehm und sicher."
+		},
+		"article_3": {
+			"title": "Wie bereiten Sie Ihre Haut auf eine kosmetische Behandlung vor?",
+			"text": "Die richtige Vorbereitung der Haut ist der Schlüssel zur Wirksamkeit und Sicherheit jedes Eingriffs. Informieren Sie sich vor dem Besuch im Büro, was Sie vermeiden und worauf Sie besonders achten sollten. \n1. Hygiene und häusliche Pflege. \nEinige Tage vor der Behandlung sollten Sie Ihre Haut sorgfältig mit sanfter Kosmetik reinigen. Vermeiden Sie aggressive Peelings oder Produkte mit hohem Säuregehalt, die die Haut reizen können. Die Haut sollte in einem möglichst natürlichen Zustand sein, damit der Facharzt die besten Lösungen wählen kann. \n2. Vermeiden Sie Sonne und Solarium.\nGebräunte oder gereizte Haut ist empfindlicher und kann stärker auf die Wirkung von Präparaten reagieren. Vermeiden Sie daher etwa eine Woche vor Ihrem geplanten Besuch das Solarium und intensives Sonnenbaden. Wenn Sie sich unbedingt in der Sonne aufhalten müssen, verwenden Sie Cremes mit einem hohen Lichtschutzfaktor. \n3. Verzichten Sie auf Alkohol und Zigaretten.\nEs wird nicht empfohlen, 24–48 Stunden vor dem Eingriff Alkohol zu trinken oder zu rauchen. Alkohol und Nikotin können die Durchblutung beeinträchtigen, was das Risiko von Blutergüssen erhöht und den Regenerationsprozess der Haut verlangsamt. \n4. Beratung und ärztliches Gespräch\nEs ist sehr wichtig, den Facharzt beim ersten Besuch über alle chronischen Erkrankungen, eingenommene Medikamente und mögliche Allergien zu informieren. Dadurch ist es möglich, die sicherste Behandlungsmethode zu wählen. \n5. Ruhe und Flüssigkeitszufuhr. Versuchen Sie am Tag vor dem Eingriff, gut zu schlafen und ausreichend Wasser zu trinken. Ein ausgeruhter Körper reagiert besser auf die Behandlung und eine ausreichende Flüssigkeitszufuhr unterstützt die Regenerationsprozesse der Haut. \n6. Was ist am Tag des Eingriffs zu vermeiden? \nVerwenden Sie kein Make-up oder fetthaltige Cremes – die Haut sollte sauber und frisch sein. \nVermeiden Sie intensive körperliche Aktivität unmittelbar vor Ihrem Besuch. \nTrinken Sie nicht zu viel Kaffee oder Energy-Drinks – diese können die Durchblutung und die Hautempfindlichkeit beeinträchtigen. \n7. Fachkundige Betreuung\nJede Haut ist anders, daher ist eine individuelle Beratung in der Praxis die beste Lösung. Der Spezialist berät Sie, wie Sie sich auf eine bestimmte Behandlung vorbereiten können – sei es Botox, Mesotherapie, Reinigungsbehandlung oder chemisches Peeling. \n👉 Eine gut vorbereitete Haut regeneriert sich schneller, die Wirkung der Behandlung ist besser sichtbar und der gesamte Prozess ist angenehm und sicher."
+		},
+		"article_4": {
+			"title": "Wie bereiten Sie Ihre Haut auf eine kosmetische Behandlung vor?",
+			"text": "Die richtige Vorbereitung der Haut ist der Schlüssel zur Wirksamkeit und Sicherheit jedes Eingriffs. Informieren Sie sich vor dem Besuch im Büro, was Sie vermeiden und worauf Sie besonders achten sollten. \n1. Hygiene und häusliche Pflege. \nEinige Tage vor der Behandlung sollten Sie Ihre Haut sorgfältig mit sanfter Kosmetik reinigen. Vermeiden Sie aggressive Peelings oder Produkte mit hohem Säuregehalt, die die Haut reizen können. Die Haut sollte in einem möglichst natürlichen Zustand sein, damit der Facharzt die besten Lösungen wählen kann. \n2. Vermeiden Sie Sonne und Solarium.\nGebräunte oder gereizte Haut ist empfindlicher und kann stärker auf die Wirkung von Präparaten reagieren. Vermeiden Sie daher etwa eine Woche vor Ihrem geplanten Besuch das Solarium und intensives Sonnenbaden. Wenn Sie sich unbedingt in der Sonne aufhalten müssen, verwenden Sie Cremes mit einem hohen Lichtschutzfaktor. \n3. Verzichten Sie auf Alkohol und Zigaretten.\nEs wird nicht empfohlen, 24–48 Stunden vor dem Eingriff Alkohol zu trinken oder zu rauchen. Alkohol und Nikotin können die Durchblutung beeinträchtigen, was das Risiko von Blutergüssen erhöht und den Regenerationsprozess der Haut verlangsamt. \n4. Beratung und ärztliches Gespräch\nEs ist sehr wichtig, den Facharzt beim ersten Besuch über alle chronischen Erkrankungen, eingenommene Medikamente und mögliche Allergien zu informieren. Dadurch ist es möglich, die sicherste Behandlungsmethode zu wählen. \n5. Ruhe und Flüssigkeitszufuhr. Versuchen Sie am Tag vor dem Eingriff, gut zu schlafen und ausreichend Wasser zu trinken. Ein ausgeruhter Körper reagiert besser auf die Behandlung und eine ausreichende Flüssigkeitszufuhr unterstützt die Regenerationsprozesse der Haut. \n6. Was ist am Tag des Eingriffs zu vermeiden? \nVerwenden Sie kein Make-up oder fetthaltige Cremes – die Haut sollte sauber und frisch sein. \nVermeiden Sie intensive körperliche Aktivität unmittelbar vor Ihrem Besuch. \nTrinken Sie nicht zu viel Kaffee oder Energy-Drinks – diese können die Durchblutung und die Hautempfindlichkeit beeinträchtigen. \n7. Fachkundige Betreuung\nJede Haut ist anders, daher ist eine individuelle Beratung in der Praxis die beste Lösung. Der Spezialist berät Sie, wie Sie sich auf eine bestimmte Behandlung vorbereiten können – sei es Botox, Mesotherapie, Reinigungsbehandlung oder chemisches Peeling. \n👉 Eine gut vorbereitete Haut regeneriert sich schneller, die Wirkung der Behandlung ist besser sichtbar und der gesamte Prozess ist angenehm und sicher."
+		}
+	},
+
+	"Faq": {
+		"title": "faq",
+		"acordion_title": [
+			"Sind die Behandlungen schmerzhaft?",
+			"Wie lange dauert eine einzelne Behandlung?",
+			"Kann ich nach dem Eingriff zu meinen täglichen Aktivitäten zurückkehren?",
+			"Welche Kontraindikationen gibt es für Behandlungen?",
+			"Wie oft sollten Behandlungen wiederholt werden?",
+			"Bieten Sie Beratungsgespräche vor der ersten Behandlung an?"
+		],
+		"acordion_description": [
+			"Die meisten Behandlungen sind minimalinvasiv und werden so durchgeführt, dass sie für den Patienten möglichst angenehm sind. Bei Bedarf wenden wir eine örtliche Betäubung in Form einer Creme an, so dass die Beschwerden minimal sind.",
+			"Die Dauer der Behandlung hängt vom gewählten Eingriff ab – im Durchschnitt dauert sie 30 bis 60 Minuten. Der genaue Zeitpunkt wird individuell im Beratungsgespräch festgelegt.",
+			"Ja, in den meisten Fällen können Sie sofort zu Ihren täglichen Aktivitäten zurückkehren. Nach einigen Behandlungen können leichte Rötungen oder Schwellungen auftreten, die innerhalb weniger Stunden oder Tage verschwinden.",
+			"Zu den häufigsten Kontraindikationen zählen: Schwangerschaft, Stillzeit, aktive Hautinfektionen, Entzündungen, Autoimmun- oder Krebserkrankungen sowie Allergien gegen die Inhaltsstoffe der Präparate. Wir besprechen jeden Fall individuell, bevor wir mit der Therapie beginnen.",
+			"Die Häufigkeit der Behandlungen richtet sich nach der Art der Therapie und den individuellen Hautbedürfnissen. Wir empfehlen in der Regel eine Reihe mehrerer Behandlungen im Abstand von 2–4 Wochen, gefolgt von Erhaltungsbehandlungen alle paar Monate.",
+			"Natürlich. Jeder Behandlung geht ein ausführliches Beratungsgespräch voraus, in dem wir Ihre Bedürfnisse, Erwartungen und Ihren Hautzustand besprechen. Auf dieser Basis wählen wir die sicherste und effektivste Lösung aus."
+		]
+	},
+
+	"Reviews": {
+		"title": "Unsere Kunden – über uns",
+		"name": "Anna K.",
+		"services": "Botox für das ganze Gesicht",
+		"reviews": "Ich wollte dir danken! Seit dem Eingriff sind 2 Wochen vergangen und die Wirkung ist erstaunlich 🤩 Das Botox hat sich wunderbar eingelebt, ich habe das Gefühl, als wäre ich 10 Jahre in Ihrer Praxis gewesen 🙈💖 Vielen Dank für Ihre Professionalität und die herzliche Atmosphäre 🥰 Ich werde auf jeden Fall wiederkommen!",
+		"answers": "Vielen Dank! 💖 Es macht uns große Freude zu wissen, dass es Ihnen nach dem Eingriff so gut geht. Bis bald! 🥰"
+	},
+
+	"Media": {
+		"reels": "Rollen",
+		"gallery": "Galerie"
+	},
+
+	"Callback": {
+		"titleTop": "Sie haben eine Frage",
+		"titleBottom": "Was ist mit diesem Verfahren?",
+		"name": "Name *",
+		"phone": "Telefonnummer",
+		"email": "Email *",
+		"message": "Nachricht",
+		"file": "Datei",
+		"btn": "Schicken"
+	},
+
+	"Footer": { "enter": "ADMINISTRATOR-LOGIN", "exit": "ВЫХОД АДМИНИСТРАТОРА" },
+
+	"LocaleLayout": {
+		"title": "Nachhilfe in Mathematik, Englisch und Deutsch | Diana Moghimi",
+		"description": "Individuelle Nachhilfe in Mathematik, Englisch und Deutsch mit Diana Moghimi. Effektiver Unterricht für Schüler und Erwachsene - online oder vor Ort. Jetzt starten!"
+	},
+	"LocaleSwitcher": {
+		"label": "Change language",
+		"locale": "{locale, select, uk {uk} de {de} other {Unknown}}"
+	},
+	"Manifest": {
+		"description": "Individuelle Nachhilfe in Mathematik, Englisch und Deutsch mit Diana Moghimi. Effektiver Unterricht für Schüler und Erwachsene - online oder vor Ort. Jetzt starten!",
+		"name": "Nachhilfe in Mathematik, Englisch und Deutsch | Diana Moghimi"
+	},
+	"PageLayout": {
+		"links": {
+			"docs": {
+				"description": "Дізнайтеся більше про next-intl в офіційних документах.",
+				"href": "https://next-intl-docs.vercel.app/",
+				"title": "Docs"
+			},
+			"source": {
+				"description": "Check out the source code for this example on GitHub.",
+				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+				"title": "Source code"
+			}
+		}
+	},
+	"NotFoundPage": {
+		"description": "Please check your browser's address bar or use navigation to go to a familiar page.",
+		"title": "Page not found"
+	},
+	"Error": {
+		"description": "Unfortunately a problem has occurred.You can try reloading this page",
+		"title": "Something went wrong!"
+	}
+}

@@ -1,0 +1,293 @@
+{
+	"Hero": {
+		"title": "Estetik Med",
+		"sub_title": "MEDYCYNA ESTETYCZNA I REGENERACYJNA BEAUTY INJECTION",
+		"button_1": "Zapisać się",
+		"button_2": "Konsultacja",
+		"menu": [
+			"Panel administracyjny",
+			"O studiu",
+			"usługi",
+			"blogu",
+			"FAQ",
+			"ŁĄCZNOŚĆ",
+			"facebook"
+		],
+		"register_form": "Zaloguj się do panelu administracyjnego",
+		"btn_enter": "Wejście"
+	},
+	"About": {
+		"title": "O studiu",
+		"name": "EstetikMed - kosmetologia jako dyscyplina medyczna",
+		"description": "Nasze studio to miejsce, w którym piękno spotyka się z profesjonalizmem. Oferujemy szeroki zakres usług kosmetologicznych i pielęgnacyjnych – od zabiegów na twarz i ciało, przez terapie aparaturowe, aż po indywidualnie dobrane programy odmładzające i regeneracyjne. Zespół doświadczonych specjalistów dba nie tylko o efekty estetyczne, lecz także o komfort i bezpieczeństwo każdej osoby, która nas odwiedza. Łączymy nowoczesne technologie z troską o naturalne piękno i dobre samopoczucie. Wnętrza naszego studia zostały zaprojektowane tak, aby sprzyjały relaksowi i pozwalały na chwilę wytchnienia od codzienności. Tutaj możesz poczuć się wyjątkowo i zaufać profesjonalistom, którzy podkreślą Twoje naturalne piękno.",
+		"description_large": "Założycielka EstetikMed, Yanina Hanchar, jest głównym specjalistą studia. Po ukończeniu szkoły medycznej na Białorusi pracowała w przychodni, zdobywając przez ponad 10 lat solidne doświadczenie kliniczne w opiece nad pacjentami i diagnostyce. Następnie ukończyła studia pedagogiczne na kierunku „rehabilitacja fizyczna” i została instruktorem terapii ruchowej, co dało jej głębokie zrozumienie anatomii funkcjonalnej i pracy mięśni. Po przeprowadzce do Polski ponownie poświęciła się edukacji medycznej – ukończyła Wyższą Szkołę Medyczną, uzyskała tytuł licencjata i prawo wykonywania zawodu medycznego w Polsce. Pracowała w szpitalu, stale doskonaląc swoje umiejętności. Ta droga – od publicznej służby zdrowia po praktykę szpitalną – stała się solidnym fundamentem, na którym Yanina buduje swoją estetyczną praktykę. Jej filozofia zawodowa jest prosta: estetyka powinna być bezpieczna, naturalna i oparta na wiedzy naukowej. Dlatego tworząc własną praktykę, postawiła na medyczne kwalifikacje i dokładne zrozumienie anatomii twarzy oraz fizjologii mięśni. Pierwsze kroki stawiała, wynajmując małe gabinety, gdzie zdobywała doświadczenie w iniekcjach estetycznych i zabiegach kosmetologicznych, aż w końcu otworzyła własny salon – Estetik-Med. Nazwa odzwierciedla jej credo: estetyka + medycyna. Dlaczego to ważne dla Ciebie: praca z iniekcjami i sprzętem estetycznym wymaga nie tylko poczucia estetyki, ale również głębokiej wiedzy medycznej – umiejętności oceny ryzyka, doboru odpowiedniej metody i preparatu, przewidywania reakcji tkanek. W EstetikMed łączy się kliniczna ostrożność z artystycznym wyczuciem: dążymy do naturalnego efektu, który podkreśla indywidualność, nie maskując twarzy. Osobnym kierunkiem naszej działalności jest nutrystyka – Yanina analizuje sposób żywienia, możliwe niedobory witamin i składników odżywczych, włączając zalecenia dietetyczne i suplementacyjne do planu terapii. Często nawet najlepsze zabiegi iniekcyjne przynoszą ograniczony efekt, jeśli organizm boryka się z niedoborami lub niezdrowym trybem życia. Kompleksowe podejście – zabiegi estetyczne + korekta żywienia i stylu życia – pozwala osiągnąć trwalsze i bardziej wyraźne rezultaty. W EstetikMed otrzymasz: • bezpieczny, spersonalizowany plan zabiegów oparty na doświadczeniu klinicznym i wiedzy anatomicznej, • podejście „wszystko o Tobie”: diagnostyka, metody iniekcyjne i aparaturowe oraz zalecenia żywieniowe, • realistyczną ocenę oczekiwań i plan leczenia zorientowany na Twoje zdrowie, • uważne, pełne szacunku podejście na każdym etapie – od konsultacji po opiekę po zabiegu. Jeśli szukasz profesjonalnego, medycznie uzasadnionego podejścia do estetyki – zapraszamy na konsultację. Razem opracujemy bezpieczną strategię osiągnięcia oczekiwanych rezultatów, dopasowaną do Twojego stylu życia i indywidualnych potrzeb.",
+		"year": "Lata doświadczenia",
+		"clients": "Zadowoleni klienci",
+		"procedure": "Rodzajów procedur",
+		"procents": "Poziom satysfakcji",
+		"more": "Przeczytaj więcej",
+		"btn": "Konsultacja"
+	},
+	"Services": {
+		"title": "Usługi",
+		"btn_reservation": "Zapisać się",
+		"btn_consultation": "Konsultacja",
+		"services": [
+			"Medycyna estetyczna i regeneracyjna",
+			"Depilacja laserowa dla kobiet",
+			"Depilacja laserowa dla mężczyzn"
+		],
+		"med_est_i_reg": [
+			{
+				"name": "Powiększanie ust 1 ml",
+				"price": "900",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Juviderm do ust 1 ml",
+				"price": "1200",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Botoks na twarz to jedna strefa",
+				"price": "500",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Botox na twarz w dwóch strefach",
+				"price": "800",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Botox na twarz trzy strefy",
+				"price": "1000",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Botoks na całą twarz",
+				"price": "1800",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			}
+		],
+		"dep_las_dla_kob": [
+			{
+				"name": "Wąsik",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Broda",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Broda + wąsik",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Policzki",
+				"price": "90",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Szyja",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Całą twarz",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			}
+		],
+		"dep_las_dla_mez": [
+			{
+				"name": "Policzki",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Pachy",
+				"price": "160",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Broda",
+				"price": "160",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Wąsik",
+				"price": "100",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Brzuch",
+				"price": "170",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			},
+			{
+				"name": "Klatka piersiowa",
+				"price": "180",
+				"currency": "PLN",
+				"description": "Zabieg z użyciem renomowanego preparatu Juvederm."
+			}
+		]
+	},
+
+	"Features": {
+		"imageTextTop": "Dlaczego ESTETIKMED",
+		"imageTextBottom": "Wybierając ESTETIKMED stawiasz na profesjonalizm i jakość, która buduje zaufanie na lata.",
+		"item_1": {
+			"title": "Kompleksowa opieka – od konsultacji po zabieg",
+			"text": "Oferujemy pełny proces: profesjonalną diagnozę skóry, indywidualnie dobrany plan zabiegów oraz opiekę pozabiegową."
+		},
+		"item_2": {
+			"title": "Szybkie i bezpieczne procedury",
+			"text": "Wykorzystujemy nowoczesne technologie, które skracają czas trwania zabiegów i zapewniają maksymalny komfort."
+		},
+		"item_3": {
+			"title": "Doświadczony i wykwalifikowany zespół",
+			"text": "Nasi specjaliści posiadają wieloletnie doświadczenie w kosmetologii i medycynie estetycznej."
+		},
+		"item_4": {
+			"title": "Indywidualne podejście",
+			"text": "Każdy klient otrzymuje spersonalizowany plan pielęgnacji dostosowany do potrzeb skóry."
+		},
+		"item_5": {
+			"title": "Komfort i bezpieczeństwo pacjentów",
+			"text": "Dbamy o najwyższe standardy higieny i bezpieczeństwa, aby każdy zabieg był w pełni komfortowy."
+		}
+	},
+	"Specialist": {
+		"name": "Yanina Hanchar",
+		"description": "Założycielka studia, Yanina, jest pielęgniarką z wykształceniem medycznym i wieloletnim doświadczeniem klinicznym – pracowała w przychodni i szpitalu, posiada dyplom licencjata oraz prawo wykonywania zawodu w Polsce. Specjalizuje się w medycynie estetycznej, kładąc nacisk na anatomię, bezpieczeństwo iniekcji oraz kompleksowe podejście – łączenie zabiegów estetycznych z korektą żywieniową dla trwałych efektów."
+	},
+
+	"Articles": {
+		"title": "Blogu",
+		"btn": "Wszystkie artykuły",
+		"article_0": {
+			"title": "Jak przygotować skórę do zabiegu kosmetologicznego?",
+			"text": "Odpowiednie przygotowanie skóry to klucz do skuteczności i bezpieczeństwa każdej procedury. Sprawdź, czego unikać, a na co zwrócić szczególną uwagę przed wizytą w gabinecie. \n1. Higiena i pielęgnacja domowa. \nKilka dni przed zabiegiem należy zadbać o dokładne oczyszczanie skóry przy użyciu delikatnych kosmetyków. Unikaj agresywnych peelingów czy produktów z dużą ilością kwasów, które mogą podrażnić skórę. Skóra powinna być w możliwie naturalnym stanie, aby specjalista mógł dobrać najlepsze rozwiązania. \n2. Unikaj słońca i solarium \nOpalona lub podrażniona skóra jest bardziej wrażliwa i może silniej reagować na działanie preparatów. Dlatego na około tydzień przed planowaną wizytą zrezygnuj z solarium oraz intensywnego opalania. Jeśli musisz przebywać na słońcu – stosuj kremy z wysokim filtrem SPF. \n3. Zrezygnuj z alkoholu i papierosów \nNa 24–48 godzin przed zabiegiem nie zaleca się spożywania alkoholu ani palenia papierosów. Alkohol i nikotyna mogą wpływać na krążenie krwi, co zwiększa ryzyko powstawania siniaków i spowalnia proces regeneracji skóry. \n4. Konsultacja i wywiad medyczny \nBardzo ważne jest, aby podczas pierwszej wizyty poinformować specjalistę o wszystkich chorobach przewlekłych, przyjmowanych lekach oraz ewentualnych alergiach. Dzięki temu możliwe będzie wybranie najbezpieczniejszej metody zabiegu. \n5. Odpoczynek i nawodnienie \nNa dzień przed zabiegiem postaraj się dobrze wyspać i wypić odpowiednią ilość wody. Wypoczęty organizm lepiej reaguje na zabieg, a odpowiednie nawodnienie wspiera procesy regeneracyjne skóry. \n6. Czego unikać w dniu zabiegu? \nNie stosuj makijażu ani tłustych kremów – skóra powinna być czysta i świeża. \nUnikaj intensywnej aktywności fizycznej tuż przed wizytą. \nNie pij kawy ani napojów energetycznych w nadmiarze – mogą one wpływać na krążenie i wrażliwość skóry. \n7. Wsparcie specjalisty \nKażda skóra jest inna, dlatego najlepszym rozwiązaniem jest indywidualna konsultacja w gabinecie. Specjalista podpowie, jak przygotować się do konkretnego zabiegu – czy będzie to Botox, mezoterapia, zabieg oczyszczający czy peeling chemiczny. \n👉 Dobrze przygotowana skóra szybciej się regeneruje, efekty zabiegu są bardziej widoczne, a cały proces przebiega komfortowo i bezpiecznie."
+		},
+		"article_1": {
+			"title": "Jak przygotować skórę do zabiegu kosmetologicznego?",
+			"text": "Odpowiednie przygotowanie skóry to klucz do skuteczności i bezpieczeństwa każdej procedury. Sprawdź, czego unikać, a na co zwrócić szczególną uwagę przed wizytą w gabinecie. \n1. Higiena i pielęgnacja domowa. \nKilka dni przed zabiegiem należy zadbać o dokładne oczyszczanie skóry przy użyciu delikatnych kosmetyków. Unikaj agresywnych peelingów czy produktów z dużą ilością kwasów, które mogą podrażnić skórę. Skóra powinna być w możliwie naturalnym stanie, aby specjalista mógł dobrać najlepsze rozwiązania. \n2. Unikaj słońca i solarium \nOpalona lub podrażniona skóra jest bardziej wrażliwa i może silniej reagować na działanie preparatów. Dlatego na około tydzień przed planowaną wizytą zrezygnuj z solarium oraz intensywnego opalania. Jeśli musisz przebywać na słońcu – stosuj kremy z wysokim filtrem SPF. \n3. Zrezygnuj z alkoholu i papierosów \nNa 24–48 godzin przed zabiegiem nie zaleca się spożywania alkoholu ani palenia papierosów. Alkohol i nikotyna mogą wpływać na krążenie krwi, co zwiększa ryzyko powstawania siniaków i spowalnia proces regeneracji skóry. \n4. Konsultacja i wywiad medyczny \nBardzo ważne jest, aby podczas pierwszej wizyty poinformować specjalistę o wszystkich chorobach przewlekłych, przyjmowanych lekach oraz ewentualnych alergiach. Dzięki temu możliwe będzie wybranie najbezpieczniejszej metody zabiegu. \n5. Odpoczynek i nawodnienie \nNa dzień przed zabiegiem postaraj się dobrze wyspać i wypić odpowiednią ilość wody. Wypoczęty organizm lepiej reaguje na zabieg, a odpowiednie nawodnienie wspiera procesy regeneracyjne skóry. \n6. Czego unikać w dniu zabiegu? \nNie stosuj makijażu ani tłustych kremów – skóra powinna być czysta i świeża. \nUnikaj intensywnej aktywności fizycznej tuż przed wizytą. \nNie pij kawy ani napojów energetycznych w nadmiarze – mogą one wpływać na krążenie i wrażliwość skóry. \n7. Wsparcie specjalisty \nKażda skóra jest inna, dlatego najlepszym rozwiązaniem jest indywidualna konsultacja w gabinecie. Specjalista podpowie, jak przygotować się do konkretnego zabiegu – czy będzie to Botox, mezoterapia, zabieg oczyszczający czy peeling chemiczny. \n👉 Dobrze przygotowana skóra szybciej się regeneruje, efekty zabiegu są bardziej widoczne, a cały proces przebiega komfortowo i bezpiecznie."
+		},
+		"article_2": {
+			"title": "Jak przygotować skórę do zabiegu kosmetologicznego?",
+			"text": "Odpowiednie przygotowanie skóry to klucz do skuteczności i bezpieczeństwa każdej procedury. Sprawdź, czego unikać, a na co zwrócić szczególną uwagę przed wizytą w gabinecie. \n1. Higiena i pielęgnacja domowa. \nKilka dni przed zabiegiem należy zadbać o dokładne oczyszczanie skóry przy użyciu delikatnych kosmetyków. Unikaj agresywnych peelingów czy produktów z dużą ilością kwasów, które mogą podrażnić skórę. Skóra powinna być w możliwie naturalnym stanie, aby specjalista mógł dobrać najlepsze rozwiązania. \n2. Unikaj słońca i solarium \nOpalona lub podrażniona skóra jest bardziej wrażliwa i może silniej reagować na działanie preparatów. Dlatego na około tydzień przed planowaną wizytą zrezygnuj z solarium oraz intensywnego opalania. Jeśli musisz przebywać na słońcu – stosuj kremy z wysokim filtrem SPF. \n3. Zrezygnuj z alkoholu i papierosów \nNa 24–48 godzin przed zabiegiem nie zaleca się spożywania alkoholu ani palenia papierosów. Alkohol i nikotyna mogą wpływać na krążenie krwi, co zwiększa ryzyko powstawania siniaków i spowalnia proces regeneracji skóry. \n4. Konsultacja i wywiad medyczny \nBardzo ważne jest, aby podczas pierwszej wizyty poinformować specjalistę o wszystkich chorobach przewlekłych, przyjmowanych lekach oraz ewentualnych alergiach. Dzięki temu możliwe będzie wybranie najbezpieczniejszej metody zabiegu. \n5. Odpoczynek i nawodnienie \nNa dzień przed zabiegiem postaraj się dobrze wyspać i wypić odpowiednią ilość wody. Wypoczęty organizm lepiej reaguje na zabieg, a odpowiednie nawodnienie wspiera procesy regeneracyjne skóry. \n6. Czego unikać w dniu zabiegu? \nNie stosuj makijażu ani tłustych kremów – skóra powinna być czysta i świeża. \nUnikaj intensywnej aktywności fizycznej tuż przed wizytą. \nNie pij kawy ani napojów energetycznych w nadmiarze – mogą one wpływać na krążenie i wrażliwość skóry. \n7. Wsparcie specjalisty \nKażda skóra jest inna, dlatego najlepszym rozwiązaniem jest indywidualna konsultacja w gabinecie. Specjalista podpowie, jak przygotować się do konkretnego zabiegu – czy będzie to Botox, mezoterapia, zabieg oczyszczający czy peeling chemiczny. \n👉 Dobrze przygotowana skóra szybciej się regeneruje, efekty zabiegu są bardziej widoczne, a cały proces przebiega komfortowo i bezpiecznie."
+		},
+		"article_3": {
+			"title": "Jak przygotować skórę do zabiegu kosmetologicznego?",
+			"text": "Odpowiednie przygotowanie skóry to klucz do skuteczności i bezpieczeństwa każdej procedury. Sprawdź, czego unikać, a na co zwrócić szczególną uwagę przed wizytą w gabinecie. \n1. Higiena i pielęgnacja domowa. \nKilka dni przed zabiegiem należy zadbać o dokładne oczyszczanie skóry przy użyciu delikatnych kosmetyków. Unikaj agresywnych peelingów czy produktów z dużą ilością kwasów, które mogą podrażnić skórę. Skóra powinna być w możliwie naturalnym stanie, aby specjalista mógł dobrać najlepsze rozwiązania. \n2. Unikaj słońca i solarium \nOpalona lub podrażniona skóra jest bardziej wrażliwa i może silniej reagować na działanie preparatów. Dlatego na około tydzień przed planowaną wizytą zrezygnuj z solarium oraz intensywnego opalania. Jeśli musisz przebywać na słońcu – stosuj kremy z wysokim filtrem SPF. \n3. Zrezygnuj z alkoholu i papierosów \nNa 24–48 godzin przed zabiegiem nie zaleca się spożywania alkoholu ani palenia papierosów. Alkohol i nikotyna mogą wpływać na krążenie krwi, co zwiększa ryzyko powstawania siniaków i spowalnia proces regeneracji skóry. \n4. Konsultacja i wywiad medyczny \nBardzo ważne jest, aby podczas pierwszej wizyty poinformować specjalistę o wszystkich chorobach przewlekłych, przyjmowanych lekach oraz ewentualnych alergiach. Dzięki temu możliwe będzie wybranie najbezpieczniejszej metody zabiegu. \n5. Odpoczynek i nawodnienie \nNa dzień przed zabiegiem postaraj się dobrze wyspać i wypić odpowiednią ilość wody. Wypoczęty organizm lepiej reaguje na zabieg, a odpowiednie nawodnienie wspiera procesy regeneracyjne skóry. \n6. Czego unikać w dniu zabiegu? \nNie stosuj makijażu ani tłustych kremów – skóra powinna być czysta i świeża. \nUnikaj intensywnej aktywności fizycznej tuż przed wizytą. \nNie pij kawy ani napojów energetycznych w nadmiarze – mogą one wpływać na krążenie i wrażliwość skóry. \n7. Wsparcie specjalisty \nKażda skóra jest inna, dlatego najlepszym rozwiązaniem jest indywidualna konsultacja w gabinecie. Specjalista podpowie, jak przygotować się do konkretnego zabiegu – czy będzie to Botox, mezoterapia, zabieg oczyszczający czy peeling chemiczny. \n👉 Dobrze przygotowana skóra szybciej się regeneruje, efekty zabiegu są bardziej widoczne, a cały proces przebiega komfortowo i bezpiecznie."
+		},
+		"article_4": {
+			"title": "Jak przygotować skórę do zabiegu kosmetologicznego?",
+			"text": "Odpowiednie przygotowanie skóry to klucz do skuteczności i bezpieczeństwa każdej procedury. Sprawdź, czego unikać, a na co zwrócić szczególną uwagę przed wizytą w gabinecie. \n1. Higiena i pielęgnacja domowa. \nKilka dni przed zabiegiem należy zadbać o dokładne oczyszczanie skóry przy użyciu delikatnych kosmetyków. Unikaj agresywnych peelingów czy produktów z dużą ilością kwasów, które mogą podrażnić skórę. Skóra powinna być w możliwie naturalnym stanie, aby specjalista mógł dobrać najlepsze rozwiązania. \n2. Unikaj słońca i solarium \nOpalona lub podrażniona skóra jest bardziej wrażliwa i może silniej reagować na działanie preparatów. Dlatego na około tydzień przed planowaną wizytą zrezygnuj z solarium oraz intensywnego opalania. Jeśli musisz przebywać na słońcu – stosuj kremy z wysokim filtrem SPF. \n3. Zrezygnuj z alkoholu i papierosów \nNa 24–48 godzin przed zabiegiem nie zaleca się spożywania alkoholu ani palenia papierosów. Alkohol i nikotyna mogą wpływać na krążenie krwi, co zwiększa ryzyko powstawania siniaków i spowalnia proces regeneracji skóry. \n4. Konsultacja i wywiad medyczny \nBardzo ważne jest, aby podczas pierwszej wizyty poinformować specjalistę o wszystkich chorobach przewlekłych, przyjmowanych lekach oraz ewentualnych alergiach. Dzięki temu możliwe będzie wybranie najbezpieczniejszej metody zabiegu. \n5. Odpoczynek i nawodnienie \nNa dzień przed zabiegiem postaraj się dobrze wyspać i wypić odpowiednią ilość wody. Wypoczęty organizm lepiej reaguje na zabieg, a odpowiednie nawodnienie wspiera procesy regeneracyjne skóry. \n6. Czego unikać w dniu zabiegu? \nNie stosuj makijażu ani tłustych kremów – skóra powinna być czysta i świeża. \nUnikaj intensywnej aktywności fizycznej tuż przed wizytą. \nNie pij kawy ani napojów energetycznych w nadmiarze – mogą one wpływać na krążenie i wrażliwość skóry. \n7. Wsparcie specjalisty \nKażda skóra jest inna, dlatego najlepszym rozwiązaniem jest indywidualna konsultacja w gabinecie. Specjalista podpowie, jak przygotować się do konkretnego zabiegu – czy będzie to Botox, mezoterapia, zabieg oczyszczający czy peeling chemiczny. \n👉 Dobrze przygotowana skóra szybciej się regeneruje, efekty zabiegu są bardziej widoczne, a cały proces przebiega komfortowo i bezpiecznie."
+		}
+	},
+
+	"Faq": {
+		"title": "faq",
+		"acordion_title": [
+			"Czy zabiegi są bolesne?",
+			"Ile czasu trwa pojedynczy zabieg?",
+			"Czy po zabiegu mogę wrócić do codziennych zajęć?",
+			"Jakie są przeciwwskazania do zabiegów?",
+			"Jak często należy powtarzać zabiegi?",
+			"Czy oferujecie konsultacje przed pierwszym zabiegiem?"
+		],
+		"acordion_description": [
+			"Większość zabiegów jest mało inwazyjna i wykonywana w sposób możliwie komfortowy dla pacjenta. W razie potrzeby stosujemy znieczulenie miejscowe w postaci kremu, dzięki czemu dyskomfort jest minimalny.",
+			"Czas trwania zabiegu zależy od wybranej procedury – średnio trwa od 30 do 60 minut. Dokładny czas określamy indywidualnie podczas konsultacji.",
+			"Tak, w większości przypadków można od razu wrócić do codziennych czynności. Po niektórych zabiegach może pojawić się lekkie zaczerwienienie lub obrzęk, które ustępują w ciągu kilku godzin lub dni.",
+			"Do najczęstszych przeciwwskazań należą: ciąża, karmienie piersią, aktywne infekcje skóry, stany zapalne, choroby autoimmunologiczne lub nowotworowe, a także uczulenie na składniki preparatów. Każdy przypadek omawiamy indywidualnie przed rozpoczęciem terapii.",
+			"Częstotliwość zabiegów zależy od rodzaju terapii oraz indywidualnych potrzeb skóry. Zazwyczaj zalecamy serię kilku zabiegów w odstępach 2–4 tygodni, a następnie zabiegi podtrzymujące co kilka miesięcy.",
+			"Oczywiście. Każdy zabieg poprzedza szczegółowa konsultacja, podczas której omawiamy potrzeby, oczekiwania i stan skóry. Na tej podstawie dobieramy najbezpieczniejsze i najbardziej skuteczne rozwiązanie."
+		]
+	},
+
+	"Reviews": {
+		"title": "Nasi klienci — o nas",
+		"name": "Anna K.",
+		"services": "Botoks na całą twarz",
+		"reviews": "Chciałam Wam podziękować! Minęły już 2 tygodnie po zabiegu i efekt jest niesamowity 🤩 Botox pięknie się ułożył, czuję się jakbym zostawiła u Was w gabinecie 10 lat 🙈💖 Dziękuję za profesjonalizm i tak ciepłą atmosferę 🥰 Na pewno wrócę jeszcze nie raz! ",
+		"answers": "Dziękujemy pięknie! 💖 To dla nas ogromna radość wiedzieć, że czujesz się tak dobrze po zabiegu. Do zobaczenia wkrótce! 🥰"
+	},
+
+	"Media": {
+		"reels": "Reels",
+		"gallery": "Galeria"
+	},
+
+	"Callback": {
+		"titleTop": "Masz pytanie",
+		"titleBottom": "A co z tą procedurą?",
+		"name": "Imię *",
+		"phone": "Numer telefonu *",
+		"email": "Email *",
+		"message": "Wiadomość",
+		"file": "Plik",
+		"btn": "Wysłać"
+	},
+
+	"Footer": {
+		"enter": "LOGOWANIE ADMINISTRATORA",
+		"exit": "ВЫХОД АДМИНИСТРАТОРА"
+	},
+
+	"LocaleLayout": {
+		"title": "Репетитор з математики, англійської та німецької | Diana Moghimi",
+		"description": "Індивідуальні заняття з математики, англійської та німецької з Diana Moghimi. Ефективне навчання для школярів та дорослих - онлайн або офлайн. Запишіться вже сьогодні!"
+	},
+	"LocaleSwitcher": {
+		"label": "Sprache ändern",
+		"locale": "{locale, select, uk {uk} de {de} other {Unbekannt}}"
+	},
+	"Manifest": {
+		"description": "Індивідуальні заняття з математики, англійської та німецької з Diana Moghimi. Ефективне навчання для школярів та дорослих - онлайн або офлайн. Запишіться вже сьогодні!",
+		"name": "Репетитор з математики, англійської та німецької | Diana Moghimi"
+	},
+	"PageLayout": {
+		"links": {
+			"docs": {
+				"description": "Learn more about next-intl in the official docs.",
+				"href": "https://next-intl-docs.vercel.app/",
+				"title": "Docs"
+			},
+			"source": {
+				"description": "Browse the source code of this example on GitHub.",
+				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+				"title": "Source code"
+			}
+		}
+	},
+	"NotFoundPage": {
+		"description": "Sprawdź pasek adresu przeglądarki lub skorzystaj z nawigacji, aby przejść do znanej strony.",
+		"title": "Nie znaleziono strony"
+	},
+	"Error": {
+		"description": "Przepraszamy, wystąpił problem. Możesz spróbować ponownie załadować tę stronę.",
+		"title": "Coś poszło nie tak!"
+	}
+}

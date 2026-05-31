@@ -1,26 +1,67 @@
 @import "tailwindcss";
+html {
+	scroll-behavior: smooth;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--font-family: "Inter", sans-serif;
+	--second-family: "Playfair Display", sans-serif;
+
+	--foundation-green-lighter: #f0f4e7;
+	--foundation--green-light-: hover: #cdd5c0;
+	--foundation--green-light-: active: #c3ccb3;
+	--foundation--green-normal: #a3b18a;
+	--foundation-green-normal-: hover: #838e6c;
+	--foundation-green-normal-: active: #717b5f;
+	--foundation-green-dark: #404832;
+	--foundation-green-dark-: hover: #363e29;
+	--foundation--green-dark-: active: #12130f;
+	--didi-black: #231c00;
+	--didi-browngrey: #4e4141;
+	--didi-white: #fefefe;
+	--didi-green-primary: #6c7a50;
+	--didi-green-dark: #343d1e;
+	--didi-green-light: #dfe2ce;
+	--didi-green-hover: #535e3a;
+	--didi-brown-bg: #f6f1e7;
+	--didi-brown-light: #ede6d4;
+	--didi-brown-basic: #7f735d;
+	--didi-brown-light-ish: #d5c7ad;
+	--didi-brown-dark-brown: #39251f;
+	--didi-black: #231c00;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	--default-font-family: var(--font-family);
+	--color-background: var(--didi-brown-bg);
+
+	--font-primary: var(--font-family);
+	--font-secondary: var(--second-family);
+
+	--color-primary: var(--didi-black);
+	--color-secondary: var(--didi-brown-dark-brown);
+	--color-primaryActive: var(--with-taste-active-primary);
+	--color-black: var(--didi-black);
+	--color-white: var(--white);
+	--color-card: var(--with-taste-card);
+	--color-dark-brown: var(--with-taste-dark-brown);
+	--color-greyNormalActive: var(--foundation--grey-normal-active);
+	--color-foundationGreyDark: var(--foundation--grey-dark);
+	--color-cardDark: var(--with-taste-dark-card);
+	--hero-gradient: var(--hero-gradient);
+	--gradient-image-overlay: linear-gradient(
+		180deg,
+		rgba(236, 233, 227, 0) 50%,
+		rgba(236, 233, 227, 0.913462) 94.23%,
+		#ece9e3 100%
+	);
+	--color-error: #cb0205;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.scrollbar-none::-webkit-scrollbar {
+	display: none;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.scrollbar-none {
+	-ms-overflow-style: none; /* IE 10+ */
+	scrollbar-width: none; /* Firefox */
 }
