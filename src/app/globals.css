@@ -14,8 +14,8 @@ html {
 	--foundation-green-normal-: hover: #838e6c;
 	--foundation-green-normal-: active: #717b5f;
 	--foundation-green-dark: #404832;
-	--foundation-green-dark-: hover: #363e29;
-	--foundation--green-dark-: active: #12130f;
+	--foundation-green-dark-hover: #363e29;
+	--foundation--green-dark-active: #12130f;
 	--didi-black: #231c00;
 	--didi-browngrey: #4e4141;
 	--didi-white: #fefefe;
@@ -28,33 +28,21 @@ html {
 	--didi-brown-basic: #7f735d;
 	--didi-brown-light-ish: #d5c7ad;
 	--didi-brown-dark-brown: #39251f;
-	--didi-black: #231c00;
 }
 
 @theme inline {
 	--default-font-family: var(--font-family);
 	--color-background: var(--didi-brown-bg);
+	--color-foreground: var(--didi-black);
 
 	--font-primary: var(--font-family);
 	--font-secondary: var(--second-family);
 
 	--color-primary: var(--didi-black);
 	--color-secondary: var(--didi-brown-dark-brown);
-	--color-primaryActive: var(--with-taste-active-primary);
 	--color-black: var(--didi-black);
-	--color-white: var(--white);
-	--color-card: var(--with-taste-card);
-	--color-dark-brown: var(--with-taste-dark-brown);
-	--color-greyNormalActive: var(--foundation--grey-normal-active);
-	--color-foundationGreyDark: var(--foundation--grey-dark);
-	--color-cardDark: var(--with-taste-dark-card);
-	--hero-gradient: var(--hero-gradient);
-	--gradient-image-overlay: linear-gradient(
-		180deg,
-		rgba(236, 233, 227, 0) 50%,
-		rgba(236, 233, 227, 0.913462) 94.23%,
-		#ece9e3 100%
-	);
+	--color-white: var(--didi-white);
+
 	--color-error: #cb0205;
 }
 

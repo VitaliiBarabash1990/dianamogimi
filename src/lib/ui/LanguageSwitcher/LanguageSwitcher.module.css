@@ -1,0 +1,29 @@
+.switcherList {
+	height: 31px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+}
+.language {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 22px;
+	color: var(--didi-black);
+	text-transform: uppercase;
+	border-bottom: 1.5px solid transparent;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.language:hover {
+	color: var(--didi-green-light);
+	border-bottom-color: var(--didi-green-light);
+}
+
+.languageActive {
+	border-bottom-color: var(--didi-green-primary);
+}
+
+/* text-foreground uppercase text-[22px] */
+/* flex row items-center gap-12 */

@@ -1,0 +1,122 @@
+.footerSection {
+	padding-top: 24px;
+	padding-bottom: 44px;
+	background: var(--didi-brown-basic);
+}
+.footerContainer {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+@media screen and (min-width: 768px) {
+	.footerSection {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.footerContainer {
+		padding-left: 162px;
+		padding-right: 162px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.footerWrapper {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	.title,
+	.contact a {
+		font-family: var(--font-family);
+		font-weight: 500;
+		font-size: 22px;
+		color: var(--didi-white);
+	}
+	.email {
+		font-weight: 400;
+		font-size: 20px;
+		margin-top: 8px;
+	}
+
+	.socList {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 16px;
+	}
+	.iconBlock {
+		width: 32px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+	}
+	.socIcon {
+		width: 27px;
+		height: 27px;
+		fill: var(--didi-white);
+	}
+	.iconBlock:hover .socIcon {
+		fill: var(--didi-green-light);
+	}
+
+	.footerMenu,
+	.menuList {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	.menuList {
+		gap: 16px;
+	}
+	.menuItem {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 20px;
+		color: var(--didi-white);
+		border-bottom: 1px solid transparent;
+	}
+	.menuItem:hover {
+		border-bottom: 1px solid var(--didi-green-light);
+	}
+	.menuItem:active {
+		border-bottom: 1px solid var(--didi-white);
+	}
+
+	.subscribe {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 40px;
+	}
+	.btnFooter {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid var(--didi-white);
+		border-radius: 16px;
+		padding: 16px 24px;
+		width: 397px;
+		height: 59px;
+		cursor: pointer;
+
+		font-family: var(--font-family);
+		font-weight: 500;
+		font-size: 22px;
+		color: var(--didi-white);
+	}
+	.btnfooter:active {
+		border: 1px solid var(--didi-green-light);
+		color: var(--didi-green-light);
+	}
+	.btnFooter:hover {
+		border: 1px solid var(--didi-green-hover);
+		background: var(--didi-green-hover);
+	}
+}
