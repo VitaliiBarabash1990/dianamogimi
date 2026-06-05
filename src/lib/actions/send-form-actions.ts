@@ -30,7 +30,7 @@ export async function sendCourseForm(
 			};
 		}
 
-		const { name, surname, phone, course, message } = validation.data;
+		const { name, email, phone, course, message } = validation.data;
 
 		await transporter.sendMail({
 			from: process.env.SMTP_FROM,
@@ -39,7 +39,7 @@ export async function sendCourseForm(
 			html: `
           <h2>Нова заявка</h2>
           <p><strong>Ім'я:</strong> ${name}</p>
-          <p><strong>Прізвище:</strong> ${surname || "Не вказано"}</p>
+          <p><strong>Прізвище:</strong> ${email || "Не вказано"}</p>
           <p><strong>Телефон:</strong> ${phone}</p>
           <p><strong>Курс:</strong> ${course}</p>
           <p><strong>Повідомлення:</strong> ${message || "Не вказано"}</p>
