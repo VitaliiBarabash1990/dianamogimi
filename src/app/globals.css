@@ -28,6 +28,7 @@ html {
 	--didi-brown-basic: #7f735d;
 	--didi-brown-light-ish: #d5c7ad;
 	--didi-brown-dark-brown: #39251f;
+	--error: #dc2626;
 }
 
 @theme inline {

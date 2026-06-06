@@ -41,5 +41,9 @@
 <path stroke-width="3.2" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="miter" d="M1.6 1.6l38.4 25.6 38.4-25.6"></path>
 </symbol>
 
+<symbol id="icon-slider-arrow" viewBox="0 0 15 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7143" d="M13.986 0.857l-12.857 15 12.857 15"></path>
+</symbol>
+
 </defs>
 </svg>

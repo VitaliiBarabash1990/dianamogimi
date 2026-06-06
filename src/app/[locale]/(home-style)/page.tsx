@@ -6,6 +6,7 @@ import About from "@/components/sections/About/About";
 import Subjects from "@/components/sections/Subjects/Subjects";
 import Style from "@/components/sections/Style/Style";
 import Callback from "@/components/sections/Contacts/Callback";
+import Reviews from "@/components/sections/Reviews/Reviews";
 
 type Props = {
 	params: Promise<{ locale: Locale }>;
@@ -22,6 +23,7 @@ export default async function IndexPage({ params }: Props) {
 			<About />
 			<Subjects />
 			<Style />
+			<Reviews />
 			<Callback />
 		</>
 	);

@@ -64,6 +64,16 @@
 	color: #000;
 	cursor: pointer;
 	transition: background-color 0.2s ease;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.checkIcon {
+	font-size: 18px;
+	color: var(--didi-green-primary);
 }
 
 .option:last-child {

@@ -9,6 +9,7 @@ import { FormInput } from "@/lib/ui/form/FormInput/FormInput";
 import FormSelect from "@/lib/ui/form/FormSelect/FormSelect";
 import { FormTextarea } from "@/lib/ui/form/FormTextarea/FormTextarea";
 import Link from "next/link";
+import clsx from "clsx";
 
 const initialState: CourseFormState = {
 	success: false,
@@ -32,7 +33,8 @@ const Callback = () => {
 		{ value: "german", label: t("subjectsList.2") },
 	];
 
-	const [selectedCourse, setSelectedCourse] = useState("");
+	// const [selectedCourse, setSelectedCourse] = useState("");
+	const [selectedCourses, setSelectedCourses] = useState<string[]>([]);
 	const [selectedCourseLabel, setSelectedCourseLabel] = useState("");
 	const [courseTouched, setCourseTouched] = useState(false);
 
@@ -40,7 +42,8 @@ const Callback = () => {
 		if (state.success) {
 			formRef.current?.reset();
 			setTimeout(() => {
-				setSelectedCourse("");
+				// setSelectedCourse("");
+				setSelectedCourses([]);
 				setSelectedCourseLabel("");
 				setCourseTouched(false);
 				setIsAgreed(false);
@@ -53,10 +56,23 @@ const Callback = () => {
 		}
 	}, [state.success]);
 
-	const handleCourseChange = (val: string) => {
-		setSelectedCourse(val);
-		const option = courses.find((c) => c.value === val);
-		setSelectedCourseLabel(option?.label || "");
+	// const handleCourseChange = (val: string) => {
+	// 	setSelectedCourse(val);
+	// 	const option = courses.find((c) => c.value === val);
+	// 	setSelectedCourseLabel(option?.label || "");
+	// };
+
+	const selectedCourseLabels = courses
+		.filter((course) => selectedCourses.includes(course.value))
+		.map((course) => course.label)
+		.join(", ");
+
+	const handleCourseChange = (value: string) => {
+		setSelectedCourses((prev) =>
+			prev.includes(value)
+				? prev.filter((item) => item !== value)
+				: [...prev, value],
+		);
 	};
 	return (
 		<section id="callback" className={s.callbackSection}>
@@ -93,7 +109,8 @@ const Callback = () => {
 								name="subjects"
 								label={t("subjects")}
 								placeholder={t("placeholdersubjects")}
-								value={selectedCourse}
+								// value={selectedCourse}
+								value={selectedCourses}
 								onChange={handleCourseChange}
 								onBlur={() => setCourseTouched(true)}
 								options={courses}
@@ -102,7 +119,8 @@ const Callback = () => {
 							/>
 						</div>
 
-						<input type="hidden" name="course" value={selectedCourseLabel} />
+						{/* <input type="hidden" name="course" value={selectedCourseLabel} /> */}
+						<input type="hidden" name="course" value={selectedCourseLabels} />
 
 						<FormTextarea
 							name="message"
@@ -111,15 +129,10 @@ const Callback = () => {
 						/>
 
 						<div
-							className="flex items-center justify-center gap-3 mt-8 cursor-pointer select-none"
+							className={s.checkBlock}
 							onClick={() => setIsAgreed(!isAgreed)}
 						>
-							<div
-								className={`
-            min-w-[20px] h-5 border-2 rounded-md flex items-center justify-center transition-all duration-200
-            ${isAgreed ? "bg-[#1C686D] border-[#1C686D]" : "bg-transparent border-[#9DC6C9]"}
-          `}
-							>
+							<div className={clsx(s.checkbox, isAgreed && s.checkboxActive)}>
 								{isAgreed && (
 									<svg
 										width="12"
@@ -138,11 +151,11 @@ const Callback = () => {
 									</svg>
 								)}
 							</div>
-							<p className="text-[14px] leading-tight text-[#4A4A4A] lg:text-[16px]">
+							<p className={s.policyText}>
 								Я погоджуюся з{" "}
 								<Link
 									href="/privacy-policy"
-									className="underline hover:text-[#1C686D] transition-colors"
+									className={s.policyLink}
 									onClick={(e) => e.stopPropagation()}
 								>
 									Політикою конфіденційності
@@ -150,9 +163,7 @@ const Callback = () => {
 							</p>
 						</div>
 
-						{state.error && (
-							<p className="text-error text-center pt-2">{state.error}</p>
-						)}
+						{state.error && <p className={s.errorMessage}>{state.error}</p>}
 
 						<button
 							type="submit"
