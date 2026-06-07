@@ -1,0 +1,149 @@
+.packageSection {
+	padding-top: 24px;
+	padding-bottom: 44px;
+}
+.packageContainer {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+	.packageSection {
+		padding-top: 85px;
+		padding-bottom: 200px;
+	}
+	.packageContainer {
+		padding-left: 162px;
+		padding-right: 162px;
+	}
+	.packageWrapper,
+	.titleHead {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+	}
+	.titleHead {
+		gap: 16px;
+		max-width: 656px;
+	}
+	.title {
+		font-family: var(--second-family);
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 113%;
+		text-transform: uppercase;
+		text-align: center;
+		color: var(--didi-brown-dark-brown);
+	}
+	.subtitle {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 20px;
+		text-align: center;
+		color: var(--didi-black);
+	}
+
+	.packageList {
+		display: flex;
+		align-items: stretch;
+		gap: 46px;
+	}
+	.packageItem {
+		width: calc((100% - 92px - 71px) / 3);
+		border-radius: 12px;
+		padding: 48px 40px;
+		background: var(--didi-brown-light);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		gap: 40px;
+	}
+	.activeItem {
+		width: calc((100% - 92px - 71px) / 3 + 71px);
+		background: var(--didi-green-light);
+	}
+
+	.itemWrapper,
+	.itemCount {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.itemWrapper {
+		gap: 24px;
+	}
+	.itemList {
+		list-style-type: disc;
+		padding-left: 24px;
+	}
+	.itemCount {
+		gap: 12px;
+	}
+	.count {
+		font-family: var(--font-family);
+		font-weight: 600;
+		font-size: 24px;
+		color: var(--didi-black);
+	}
+	.activeItem .count {
+		color: var(--foundation--green-dark-active);
+	}
+	.price {
+		font-family: var(--font-family);
+		font-weight: 700;
+		font-size: 40px;
+		text-transform: uppercase;
+		color: var(--didi-brown-basic);
+	}
+	.activeItem .price {
+		color: var(--didi-brown-dark-brown);
+	}
+	.item {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 20px;
+		color: var(--didi-black);
+	}
+	.activeItem .item {
+		color: var(--foundation--green-dark-active);
+	}
+	.description {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 133%;
+		text-align: center;
+		color: var(--didi-browngrey);
+	}
+	.save {
+		font-family: var(--font-family);
+		font-weight: 600;
+		font-size: 16px;
+		color: var(--didi-browngrey);
+	}
+
+	.btnBooking {
+		border-radius: 8px;
+		padding: 24px;
+		width: 238px;
+		height: 59px;
+		background: var(--didi-green-primary);
+		cursor: pointer;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		font-family: var(--font-family);
+		font-weight: 600;
+		font-size: 22px;
+		color: var(--didi-white);
+		transition: all 0.5s ease;
+	}
+	.btnBooking:hover {
+		background: var(--didi-green-hover);
+	}
+}

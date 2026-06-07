@@ -1,20 +1,19 @@
-.callbackSection {
+.contactsSection {
 	padding-top: 24px;
 	padding-bottom: 44px;
 }
-.callbackContainer {
+.contactsContainer {
 	padding-left: 16px;
 	padding-right: 16px;
 }
-
 @media screen and (min-width: 768px) {
-	.callbackSection {
+	.contactsSection {
 		padding-top: 80px;
-		padding-bottom: 208px;
+		padding-bottom: 80px;
 	}
-	.callbackContainer {
-		padding-left: 276px;
-		padding-right: 276px;
+	.contactsContainer {
+		padding-left: 162px;
+		padding-right: 48px;
 	}
 }
 @media screen and (min-width: 1280px) {

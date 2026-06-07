@@ -1,0 +1,132 @@
+.myContactsSection {
+	padding-top: 24px;
+	padding-bottom: 44px;
+}
+.myContactsContainer {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+@media screen and (min-width: 768px) {
+	.myContactsSection {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.myContactsContainer {
+		padding-left: 162px;
+		padding-right: 48px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.myContactsWrapper {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+	.myContactsInfo {
+		width: 35%;
+	}
+	.myContactsInfo,
+	.titleHead,
+	.infoBlock,
+	.infoList {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 56px;
+	}
+	.titleHead {
+		gap: 24px;
+	}
+	.infoBlock {
+		width: 100%;
+		gap: 16px;
+	}
+	.infoList {
+		border-radius: 12px;
+		padding: 32px 40px;
+		width: 100%;
+		min-height: 0;
+		background: var(--didi-green-light);
+		gap: 32px;
+	}
+	.infoItem {
+		gap: 32px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 20px;
+		color: var(--didi-black);
+	}
+	.socItem {
+		gap: 16px;
+	}
+	.link {
+		width: 32px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+	}
+	.socIcon {
+		width: 27px;
+		height: 27px;
+		fill: var(--didi-black);
+	}
+	.socIcon:hover {
+		fill: var(--didi-green-primary);
+	}
+	.title {
+		font-family: var(--second-family);
+		font-weight: 900;
+		font-size: 68px;
+		line-height: 112%;
+		text-transform: uppercase;
+		color: var(--didi-brown-dark-brown);
+	}
+	.subtitle {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 22px;
+		color: var(--didi-black);
+	}
+	.title_h2 {
+		font-family: var(--second-family);
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 113%;
+		text-transform: uppercase;
+		color: var(--didi-brown-dark-brown);
+	}
+	.iconBlock {
+		width: 32px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.icon {
+		width: 26px;
+		height: 29px;
+		stroke: var(--didi-black);
+		fill: transparent;
+	}
+
+	.imageWrapper {
+		position: relative;
+		width: 100%;
+		max-width: 660px;
+		aspect-ratio: 660 / 576;
+
+		border-radius: 16px;
+		overflow: hidden;
+	}
+	.image {
+		object-fit: cover;
+	}
+}

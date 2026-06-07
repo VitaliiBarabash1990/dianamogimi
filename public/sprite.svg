@@ -45,5 +45,15 @@
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7143" d="M13.986 0.857l-12.857 15 12.857 15"></path>
 </symbol>
 
+<symbol id="icon-email" viewBox="0 0 40 32">
+<path stroke-width="3.0476" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M3.556 1.524h32.508c1.117 0 2.032 0.914 2.032 2.032v24.381c0 1.118-0.914 2.032-2.032 2.032h-32.508c-1.117 0-2.032-0.914-2.032-2.032v-24.381c0-1.117 0.914-2.032 2.032-2.032z"></path>
+<path stroke-width="3.0476" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M1.524 4.571l18.286 11.175 18.286-11.175"></path>
+</symbol>
+
+<symbol id="icon-locations" viewBox="0 0 26 32">
+<path stroke-width="2.2069" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M24.644 12.874c0 9.563-11.77 17.655-11.77 17.655s-11.77-8.092-11.77-17.655c0-3.122 1.24-6.115 3.447-8.323s5.201-3.447 8.323-3.447c3.122 0 6.115 1.24 8.323 3.447s3.447 5.201 3.447 8.323z"></path>
+<path stroke-width="2.2069" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M17.288 12.874c0 1.171-0.465 2.293-1.293 3.121s-1.95 1.293-3.121 1.293-2.293-0.465-3.121-1.293c-0.828-0.828-1.293-1.95-1.293-3.121s0.465-2.293 1.293-3.121 1.95-1.293 3.121-1.293c1.171 0 2.293 0.465 3.121 1.293s1.293 1.95 1.293 3.121z"></path>
+</symbol>
+
 </defs>
 </svg>

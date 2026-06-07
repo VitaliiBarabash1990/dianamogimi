@@ -83,6 +83,55 @@
 		"cta": ["Meinen Platz buchen", "Sending..."]
 	},
 
+	"Prices": {
+		"title": "Preise & Angebote",
+		"subtitle_1": "Alle Unterrichtsstunden kosten gleich, unabhängig vom Fach",
+		"subtitle_2": "Eine Stunde kann 60 oder 90 Minuten dauern",
+		"duration_1": "20€ / 60 Min",
+		"duration_2": "30€ / 90 Min"
+	},
+
+	"PackageOptions": {
+		"title": "Paketoptionen",
+		"subtitle": "Für Schüler, die bereits bei mir lernen, bieten Pakete eine einfache Möglichkeit, den Unterricht zu einem günstigeren Preis pro Stunde fortzusetzen und gleichzeitig den Lernfortschritt beizubehalten.",
+		"package_1": [
+			"5 Stunden",
+			"90€",
+			"5 x 60-minütige Stunden",
+			"Ein Fach nach Wahl",
+			"Ideal zum Einstieg, zur Auffrischung oder zum Testen des Lernformats.",
+			"Spare 10€",
+			"Jetzt buchen"
+		],
+		"package_2": [
+			"10 Stunden",
+			"180€",
+			"10 x 60-minütige Stunden",
+			"Mischung aus verschiedenen Fächern möglich",
+			"Kontinuierliche Fortschrittskontrolle",
+			"Ideal für Schüler, die über längere Zeit stetige Fortschritte und sichtbare Ergebnisse erzielen möchten.",
+			"Spare 20€",
+			"Jetzt buchen"
+		],
+		"package_3": [
+			"5 Stunden (90 Min)",
+			"135€",
+			"5 x 90-minütige Stunden",
+			"Ein Fach nach Wahl",
+			"Ideal für Lernende, die längere Sitzungen für tieferes Verständnis und Prüfungsvorbereitung bevorzugen.",
+			"Spare 15€",
+			"Jetzt buchen"
+		]
+	},
+
+	"Contacts": {
+		"title": "Meine Kontakte",
+		"subtitle": "Melde dich gerne über jeden dir passenden Kanal bei mir",
+		"name": "Diana Moghimi",
+		"email": "dianamogimi@gmail.com",
+		"location": "Karlsruhe"
+	},
+
 	"Footer": {
 		"link_title": "Kontaktiere mich",
 		"email": "(email, іконки)",
