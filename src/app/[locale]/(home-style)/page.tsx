@@ -19,11 +19,11 @@ export default async function IndexPage({ params }: Props) {
 
 	return (
 		<>
-			{/* <Hero />
+			<Hero />
 			<About />
 			<Subjects />
 			<Style />
-			<Reviews /> */}
+			<Reviews />
 			<Callback />
 		</>
 	);
