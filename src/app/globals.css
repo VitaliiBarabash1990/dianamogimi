@@ -31,6 +31,10 @@ html {
 	--error: #dc2626;
 }
 
+button {
+	cursor: pointer;
+}
+
 @theme inline {
 	--default-font-family: var(--font-family);
 	--color-background: var(--didi-brown-bg);

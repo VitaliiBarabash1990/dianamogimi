@@ -56,10 +56,45 @@ const Subjects = () => {
 							{subjects.map((item, idx) => (
 								<li
 									key={idx}
-									className={`${s.subjectsItem} ${idx === index && s.active}`}
+									className={`${s.subjectsItem} ${idx === index ? s.active : ""}`}
 									onClick={() => setIndex(idx)}
 								>
-									{item}
+									<div className={s.subjectTitle}>{item}</div>
+									<div
+										className={`${s.mobileDescription} ${idx === index ? s.open : ""}`}
+									>
+										<p className={s.mobileSubtitle}>{descriptions[idx]}</p>
+										<div className={s.mobileButtonsGroup}>
+											<button
+												type="button"
+												className={s.ctaBtn}
+												onClick={(e) => {
+													e.stopPropagation();
+													document.getElementById("contacts")?.scrollIntoView({
+														behavior: "smooth",
+													});
+												}}
+											>
+												{t("cta")}
+											</button>
+
+											<button
+												type="button"
+												className={s.linkBtn}
+												onClick={(e) => {
+													e.stopPropagation();
+													route.push("/prices");
+												}}
+											>
+												{t("pricelist")}
+												<div className={s.linkIcon}>
+													<svg className={s.Icon}>
+														<use href="/sprite.svg#icon-link"></use>
+													</svg>
+												</div>
+											</button>
+										</div>
+									</div>
 								</li>
 							))}
 						</ul>

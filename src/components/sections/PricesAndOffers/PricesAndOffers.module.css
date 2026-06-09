@@ -83,6 +83,7 @@
 
 	.imageWrapper {
 		position: relative;
+		z-index: 1;
 		width: 65%;
 		max-width: 772px;
 		aspect-ratio: 772 / 467;

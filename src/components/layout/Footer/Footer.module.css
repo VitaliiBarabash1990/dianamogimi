@@ -1,66 +1,121 @@
 .footerSection {
-	padding-top: 24px;
-	padding-bottom: 44px;
+	padding-top: 56px;
+	padding-bottom: 56px;
 	background: var(--didi-brown-basic);
 }
 .footerContainer {
 	padding-left: 16px;
 	padding-right: 16px;
 }
-@media screen and (min-width: 768px) {
-	.footerSection {
-		padding-top: 120px;
-		padding-bottom: 120px;
-	}
-	.footerContainer {
-		padding-left: 162px;
-		padding-right: 162px;
+.footerMenu {
+	display: none;
+}
+.footerWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 64px;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+.title,
+.contact a {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: clamp(18px, calc((18 / 1024) * 100vw), 20px);
+	/* font-size: 22px; */
+	color: var(--didi-white);
+}
+.socList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+.iconBlock {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+.socIcon {
+	width: 27px;
+	height: 27px;
+	fill: var(--didi-white);
+}
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+.btnFooter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--didi-white);
+	border-radius: 16px;
+	padding: 16px 24px;
+	width: 100%;
+	height: 59px;
+	cursor: pointer;
+
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 22px;
+	color: var(--didi-white);
+}
+@media screen and (max-width: 768px) {
+	.subscribe .title {
+		text-align: center;
 	}
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
+	.footerContainer {
+		padding-left: 48px;
+		padding-right: 48px;
+	}
+
 	.footerWrapper {
 		display: flex;
+		flex-direction: row;
 		align-items: flex-start;
-		justify-content: space-between;
+		gap: 0;
 	}
 	.contact {
-		display: flex;
-		flex-direction: column;
 		align-items: flex-start;
-		gap: 24px;
 	}
 	.title,
 	.contact a {
 		font-family: var(--font-family);
 		font-weight: 500;
-		font-size: 22px;
+		font-size: clamp(18px, calc((18 / 1024) * 100vw), 20px);
+		/* font-size: 22px; */
 		color: var(--didi-white);
 	}
 	.email {
 		font-weight: 400;
-		font-size: 20px;
+		font-size: clamp(18px, calc((18 / 1024) * 100vw), 20px);
+		/* font-size: 20px; */
 		margin-top: 8px;
 	}
 
 	.socList {
-		display: flex;
-		align-items: center;
 		justify-content: flex-start;
-		gap: 16px;
 	}
 	.iconBlock {
 		width: 32px;
 		height: 32px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-shrink: 0;
 	}
-	.socIcon {
-		width: 27px;
-		height: 27px;
-		fill: var(--didi-white);
-	}
+
 	.iconBlock:hover .socIcon {
 		fill: var(--didi-green-light);
 	}
@@ -78,7 +133,8 @@
 	.menuItem {
 		font-family: var(--font-family);
 		font-weight: 400;
-		font-size: 20px;
+		font-size: clamp(18px, calc((18 / 1024) * 100vw), 20px);
+		/* font-size: 20px; */
 		color: var(--didi-white);
 		border-bottom: 1px solid transparent;
 	}
@@ -90,26 +146,8 @@
 	}
 
 	.subscribe {
-		display: flex;
-		flex-direction: column;
 		align-items: flex-start;
 		gap: 40px;
-	}
-	.btnFooter {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 1px solid var(--didi-white);
-		border-radius: 16px;
-		padding: 16px 24px;
-		width: 397px;
-		height: 59px;
-		cursor: pointer;
-
-		font-family: var(--font-family);
-		font-weight: 500;
-		font-size: 22px;
-		color: var(--didi-white);
 	}
 	.btnfooter:active {
 		border: 1px solid var(--didi-green-light);
@@ -118,5 +156,26 @@
 	.btnFooter:hover {
 		border: 1px solid var(--didi-green-hover);
 		background: var(--didi-green-hover);
+	}
+}
+@media screen and (min-width: 1280px) {
+	.footerSection {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.footerContainer {
+		padding-left: 162px;
+		padding-right: 162px;
+	}
+
+	.title,
+	.contact a {
+		font-size: 22px;
+	}
+	.email {
+		font-size: 20px;
+	}
+	.menuItem {
+		font-size: 20px;
 	}
 }

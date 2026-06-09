@@ -22,6 +22,14 @@ const About = () => {
 						</div>
 						<div className={s.desctiptionBlock}>
 							<h2 className={s.title}>{t("title")}</h2>
+							<div className={s.imageMobWrapper}>
+								<Image
+									src="/img/about/pic.webp"
+									fill
+									className={s.image}
+									alt="img_hero"
+								/>
+							</div>
 							<div className={s.descriptionWrapper}>
 								<div className={s.description}>
 									<p>{t("subtitle_1")}</p>

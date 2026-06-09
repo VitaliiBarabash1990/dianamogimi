@@ -1,5 +1,5 @@
 .select {
-	width: calc((100% - 24px) / 2);
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
@@ -85,4 +85,9 @@
 }
 .borderBottom {
 	border-bottom: 1px solid var(--didi-green-primary);
+}
+@media screen and (min-width: 768px) {
+	.select {
+		width: calc((100% - 24px) / 2);
+	}
 }

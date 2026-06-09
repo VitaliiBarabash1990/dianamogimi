@@ -1,10 +1,11 @@
 .inputWrapper {
-	width: calc((100% - 24px) / 2);
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 8px;
 }
+
 .label {
 	font-family: var(--font-family);
 	font-weight: 500;
@@ -39,4 +40,9 @@
 
 .input:focus::placeholder {
 	opacity: 0;
+}
+@media screen and (min-width: 768px) {
+	.inputWrapper {
+		width: calc((100% - 24px) / 2);
+	}
 }

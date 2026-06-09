@@ -7,7 +7,7 @@
 	gap: 8px;
 }
 .paginationItem {
-	min-width: 27px;
+	min-width: 24px;
 	height: 4px;
 	display: flex;
 	align-items: center;
@@ -20,7 +20,15 @@
 }
 .boolitIcon {
 	height: 3px;
-	width: 27px;
+	width: 24px;
 	background: var(--didi-brown-light);
 	border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+	.paginationItem {
+		min-width: 27px;
+	}
+	.boolitIcon {
+		width: 27px;
+	}
 }

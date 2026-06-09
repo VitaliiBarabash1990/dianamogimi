@@ -1,29 +1,42 @@
-.switcherList {
-	height: 31px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 12px;
+@media screen and (min-width: 320px) {
+	.switcherList {
+		height: 31px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 12px;
+	}
+	.language {
+		font-family: var(--font-family);
+		font-weight: 500;
+		font-size: 22px;
+		color: var(--didi-black);
+		text-transform: uppercase;
+		border-bottom: 1.5px solid transparent;
+		transition: all 0.5s ease;
+		cursor: pointer;
+	}
+	.separator {
+		color: var(--didi-black);
+	}
 }
-.language {
-	font-family: var(--font-family);
-	font-weight: 500;
-	font-size: 22px;
-	color: var(--didi-black);
-	text-transform: uppercase;
-	border-bottom: 1.5px solid transparent;
-	transition: all 0.5s ease;
-	cursor: pointer;
-}
+@media screen and (min-width: 1024px) {
+	.language {
+		font-size: clamp(18px, calc((20 / 1024) * 100vw), 20px);
+	}
 
-.language:hover {
-	color: var(--didi-green-light);
-	border-bottom-color: var(--didi-green-light);
-}
+	.language:hover {
+		color: var(--didi-green-light);
+		border-bottom-color: var(--didi-green-light);
+	}
 
-.languageActive {
-	border-bottom-color: var(--didi-green-primary);
+	.languageActive {
+		border-bottom-color: var(--didi-green-primary);
+	}
 }
-
-/* text-foreground uppercase text-[22px] */
-/* flex row items-center gap-12 */
+@media screen and (min-width: 1280px) {
+	.language {
+		font-size: clamp(20px, calc((22 / 1280) * 100vw), 22px);
+		/* font-size: 22px; */
+	}
+}

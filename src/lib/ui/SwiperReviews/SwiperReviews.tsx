@@ -38,7 +38,7 @@ const SwiperReviews: React.FC<ReviewsProps> = ({ ReviewsList }) => {
 					}}
 					breakpoints={{
 						320: { slidesPerView: 1, spaceBetween: 4 },
-						768: { slidesPerView: 2, spaceBetween: 4 },
+						768: { slidesPerView: 3, spaceBetween: 24 },
 						1024: { slidesPerView: 3, spaceBetween: 32 },
 					}}
 				>

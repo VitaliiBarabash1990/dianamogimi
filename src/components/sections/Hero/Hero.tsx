@@ -15,6 +15,14 @@ const Hero = () => {
 						<h1 className={s.title}>{t("title")}</h1>
 						<p className={s.subTitle}>{t("subTitle")}</p>
 						<p className={`${s.subTitle} ${s.price}`}>{t("price")}</p>
+						<div className={s.mobImageWrapper}>
+							<Image
+								src="/img/hero/pic.webp"
+								fill
+								className={s.image}
+								alt="img_hero"
+							/>
+						</div>
 						<Link href="#contacts" className={s.linkBtn}>
 							{t("cta")}
 						</Link>
