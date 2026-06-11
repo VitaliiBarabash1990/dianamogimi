@@ -112,6 +112,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	color: var(--didi-brown-dark-brown);
+	white-space: nowrap;
 	cursor: pointer;
 }
 .ctaBtn {
@@ -188,7 +189,7 @@
 	}
 	.ctaBtn,
 	.linkBtn {
-		font-size: 22px;
+		font-size: clamp(18px, calc((18 / 1024) * 100vw), 22px);
 		width: auto;
 	}
 	.ctaBtn {
@@ -217,7 +218,7 @@
 		border-radius: 0 16px 16px 0;
 	}
 	.subjectsItem {
-		font-size: 24px;
+		font-size: clamp(20px, calc((20 / 1024) * 100vw), 24px);
 	}
 }
 @media screen and (min-width: 1280px) {
@@ -228,5 +229,12 @@
 	.subjectsContainer {
 		padding-left: 160px;
 		padding-right: 160px;
+	}
+	.subjectsItem {
+		font-size: 24px;
+	}
+	.ctaBtn,
+	.linkBtn {
+		font-size: 22px;
 	}
 }

@@ -3,7 +3,7 @@ import s from "./Hero.module.css";
 import Container from "@/components/layout/Container/Container";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 const Hero = () => {
 	const t = useTranslations("Hero");
@@ -23,9 +23,9 @@ const Hero = () => {
 								alt="img_hero"
 							/>
 						</div>
-						<Link href="#contacts" className={s.linkBtn}>
+						<a href="#callback" className={s.linkBtn}>
 							{t("cta")}
-						</Link>
+						</a>
 						<Link href="/prices" className={s.link}>
 							{t("link")}
 							<div className={s.linkIcon}>

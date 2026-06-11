@@ -36,17 +36,20 @@ const MyContacts = () => {
 									{t("location")}
 								</li>
 								<li className={`${s.infoItem} ${s.socItem}`}>
-									<Link href="/" className={s.link}>
+									<Link href="https://wa.me/38067558500" className={s.link}>
 										<svg className={s.socIcon}>
 											<use href="/sprite.svg#icon-wa"></use>
 										</svg>
 									</Link>
-									<Link href="/" className={s.link}>
+									<Link href="https://t.me/postil_service" className={s.link}>
 										<svg className={s.socIcon}>
 											<use href="/sprite.svg#icon-tg"></use>
 										</svg>
 									</Link>
-									<Link href="/" className={s.link}>
+									<Link
+										href="https://www.linkedin.com/feed/"
+										className={s.link}
+									>
 										<svg className={s.socIcon}>
 											<use href="/sprite.svg#icon-linked"></use>
 										</svg>

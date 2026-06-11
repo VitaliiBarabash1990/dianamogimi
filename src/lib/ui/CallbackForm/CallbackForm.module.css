@@ -47,7 +47,8 @@
 	align-self: center;
 	border-radius: 8px;
 	padding: 24px 8px;
-	width: 430px;
+	width: 100%;
+	max-width: 430px;
 	height: 75px;
 	background: var(--didi-green-primary);
 	transition: all 0.5s ease;

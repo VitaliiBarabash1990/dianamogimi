@@ -60,7 +60,10 @@ const MobMenu = ({ open, isOpen }: MobMenuProps) => {
 									key={item.id}
 									href={item.link}
 									className={`${s.navLink} ${isActive ? s.navLinkActive : ""}`}
-									onClick={() => setActiveHash(hash)}
+									onClick={() => {
+										setActiveHash(hash);
+										isOpen(false);
+									}}
 								>
 									{item.name}
 								</Link>
@@ -72,14 +75,17 @@ const MobMenu = ({ open, isOpen }: MobMenuProps) => {
 					<button
 						type="button"
 						disabled={isContacts}
-						onClick={() => route.push("/contacts")}
+						onClick={() => {
+							route.push("/contacts");
+							isOpen(false);
+						}}
 						className={`${s.btnContacts}`}
 					>
 						{t("cta")}
 					</button>
 					<ul className={s.socList}>
 						{socMenu.map((item) => (
-							<li key={item.id}>
+							<li key={item.id} onClick={() => isOpen(false)}>
 								<a href={item.link} className={s.socItem} target="_blank">
 									<svg className={s.icon}>
 										<use href={item.icon}></use>

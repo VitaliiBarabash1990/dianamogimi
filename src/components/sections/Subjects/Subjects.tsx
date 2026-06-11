@@ -31,7 +31,7 @@ const Subjects = () => {
 									// 	window.location.hash = "contacts";
 									// }}
 									onClick={() => {
-										document.getElementById("contacts")?.scrollIntoView({
+										document.getElementById("callback")?.scrollIntoView({
 											behavior: "smooth",
 										});
 									}}
@@ -70,7 +70,7 @@ const Subjects = () => {
 												className={s.ctaBtn}
 												onClick={(e) => {
 													e.stopPropagation();
-													document.getElementById("contacts")?.scrollIntoView({
+													document.getElementById("callback")?.scrollIntoView({
 														behavior: "smooth",
 													});
 												}}

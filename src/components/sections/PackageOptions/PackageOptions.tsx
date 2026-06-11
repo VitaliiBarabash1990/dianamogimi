@@ -1,9 +1,12 @@
+"use client";
 import Container from "@/components/layout/Container/Container";
 import React from "react";
 import s from "./PackageOptions.module.css";
 import { useTranslations } from "next-intl";
+import { useRouter } from "@/i18n/routing";
 
 const PackageOptions = () => {
+	const route = useRouter();
 	const t = useTranslations("PackageOptions");
 	const packageList = [
 		{
@@ -63,7 +66,11 @@ const PackageOptions = () => {
 									<p className={s.description}>{item.description}</p>
 									<h5 className={s.save}>{item.save}</h5>
 								</div>
-								<button type="button" className={s.btnBooking}>
+								<button
+									type="button"
+									className={s.btnBooking}
+									onClick={() => route.push("/contacts")}
+								>
 									{item.btn}
 								</button>
 							</li>
