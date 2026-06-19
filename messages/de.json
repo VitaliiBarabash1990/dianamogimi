@@ -57,7 +57,11 @@
 			"Wir lernen seit zwei Monaten mit Diana, und die Ergebnisse sind deutlich sichtbar. Die Kinder sind selbstbewusster geworden, verstehen den Stoff besser und nehmen mit Freude am Unterricht teil. Diana hat schnell einen guten Zugang zu ihnen gefunden und erklärt alles ruhig und verständlich. Wir sind sehr zufrieden und empfehlen Diana gerne weiter!",
 			"Ich bin sehr zufrieden mit den Ergebnissen des Deutsch- und Mathematikunterrichts. Mein Kind nimmt gerne an den Online-Stunden teil, und man merkt deutliche Fortschritte sowie mehr Selbstvertrauen. Diana ist ein echter Profi, der Inhalte interessant und verständlich erklärt. Eine tolle Lehrerin — definitiv empfehlenswert!"
 		],
-		"clients": ["Rita (Parent)", "Tom B. (Parent)", "Anna (Parent)"]
+		"clients": [
+			"Rita (Mutter von Ameli)",
+			"Tom B. (Parent)",
+			"Anna (Mutter von Illya)"
+		]
 	},
 
 	"Callback": {
