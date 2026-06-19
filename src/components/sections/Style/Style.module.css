@@ -117,7 +117,7 @@
 	}
 	.styleList {
 		width: 62%;
-		padding: 12px 24px;
+		padding: 12px 24px 12px 56px;
 	}
 	.styleItem {
 		display: flex;
@@ -146,12 +146,14 @@
 		font-family: var(--font-family);
 		font-weight: 600;
 		font-size: 22px;
+		line-height: 29px;
 		color: var(--didi-black);
 	}
 	.descItem p {
 		font-family: var(--font-family);
 		font-weight: 400;
 		font-size: 20px;
+		line-height: 27px;
 		color: var(--didi-browngrey);
 	}
 }
@@ -192,7 +194,6 @@
 	}
 	.styleItem {
 		align-items: flex-start;
-		gap: 24px;
 	}
 	.iconBlock {
 		width: 40px;

@@ -10,9 +10,9 @@ const Reviews = () => {
 
 	const ReviewsList = [
 		{ id: 0, review: t("items.0"), client: t("clients.0") },
-		{ id: 0, review: t("items.1"), client: t("clients.1") },
-		{ id: 0, review: t("items.2"), client: t("clients.2") },
-		{ id: 0, review: t("items.3"), client: t("clients.3") },
+		{ id: 1, review: t("items.1"), client: t("clients.1") },
+		{ id: 2, review: t("items.2"), client: t("clients.2") },
+		{ id: 3, review: t("items.0"), client: t("clients.0") },
 	];
 
 	return (
