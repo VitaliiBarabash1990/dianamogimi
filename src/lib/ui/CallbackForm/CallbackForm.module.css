@@ -44,6 +44,9 @@
 }
 
 .submitBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	align-self: center;
 	border-radius: 8px;
 	padding: 24px 8px;
@@ -51,6 +54,12 @@
 	max-width: 430px;
 	height: 75px;
 	background: var(--didi-green-primary);
+
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 22px;
+	color: var(--didi-white);
+
 	transition: all 0.5s ease;
 	cursor: pointer;
 }
