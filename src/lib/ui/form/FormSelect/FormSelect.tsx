@@ -94,7 +94,7 @@ export const FormSelect: React.FC<FormSelectProps> = ({
 				<button
 					type="button"
 					onClick={() => setIsOpen(!isOpen)}
-					className={s.selectBtn}
+					className={`${s.selectBtn} ${isOpen ? s.activeBtn : ""}`}
 				>
 					{/* <span className={selectedOption ? "" : "text-greyNormalActive"}>
 						{selectedOption ? selectedOption.label : placeholder}
