@@ -48,11 +48,12 @@
 		transition: all 0.5s ease;
 	}
 	.navLinkActive {
+		color: var(--didi-black);
 		border-bottom-color: var(--didi-black);
 	}
 	.navLink:hover {
-		color: var(--didi-green-light);
-		border-bottom-color: var(--didi-green-light);
+		color: var(--didi-green-primary);
+		border-bottom-color: var(--didi-green-primary);
 	}
 
 	.btnContacts {

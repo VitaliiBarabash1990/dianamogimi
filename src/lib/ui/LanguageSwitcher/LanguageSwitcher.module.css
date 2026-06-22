@@ -26,12 +26,12 @@
 	}
 
 	.language:hover {
-		color: var(--didi-green-light);
-		border-bottom-color: var(--didi-green-light);
+		color: var(--didi-green-primary);
+		border-bottom-color: var(--didi-green-primary);
 	}
 
 	.languageActive {
-		border-bottom-color: var(--didi-green-primary);
+		border-bottom-color: var(--didi-black);
 	}
 }
 @media screen and (min-width: 1280px) {
