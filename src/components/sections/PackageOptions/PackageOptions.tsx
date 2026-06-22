@@ -64,15 +64,17 @@ const PackageOptions = () => {
 										))}
 									</ul>
 									<p className={s.description}>{item.description}</p>
-									<h5 className={s.save}>{item.save}</h5>
 								</div>
-								<button
-									type="button"
-									className={s.btnBooking}
-									onClick={() => route.push("/contacts")}
-								>
-									{item.btn}
-								</button>
+								<div className={s.botomGroup}>
+									<h5 className={s.save}>{item.save}</h5>
+									<button
+										type="button"
+										className={s.btnBooking}
+										onClick={() => route.push("/contacts")}
+									>
+										{item.btn}
+									</button>
+								</div>
 							</li>
 						))}
 					</ul>
