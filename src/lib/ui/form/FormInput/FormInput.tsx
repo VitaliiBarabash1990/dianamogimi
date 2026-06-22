@@ -21,7 +21,7 @@ export const FormInput: React.FC<FormInputProps> = ({
 }) => {
 	return (
 		<div className={s.inputWrapper}>
-			<label htmlFor="name" className={s.label}>
+			<label htmlFor={name} className={s.label}>
 				{label}
 			</label>
 			<input

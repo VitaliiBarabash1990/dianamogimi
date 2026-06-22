@@ -149,11 +149,11 @@
 		align-items: flex-start;
 		gap: 40px;
 	}
-	.btnfooter:active {
+	.btnFooter:hover {
 		border: 1px solid var(--didi-green-light);
 		color: var(--didi-green-light);
 	}
-	.btnFooter:hover {
+	.btnFooter:active {
 		border: 1px solid var(--didi-green-hover);
 		background: var(--didi-green-hover);
 	}

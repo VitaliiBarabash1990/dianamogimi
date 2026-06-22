@@ -73,6 +73,8 @@ const CallbackForm = () => {
 				: [...prev, value],
 		);
 	};
+
+	console.log("CTA", t("cta.0"));
 	return (
 		<div className={s.callbackWrapper}>
 			<div className={s.callbackTitle}>

@@ -63,6 +63,9 @@
 	transition: all 0.5s ease;
 	cursor: pointer;
 }
+.subjectsItem:hover {
+	background: var(--didi-green-light);
+}
 .subjectsItem:last-child {
 	border-bottom: none;
 }
@@ -145,7 +148,8 @@
 .subjectTitle {
 	padding: 24px;
 }
-.active {
+.active,
+.active:hover {
 	background: var(--didi-green-primary);
 	color: var(--didi-white);
 }

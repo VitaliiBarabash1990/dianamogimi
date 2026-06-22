@@ -15,7 +15,7 @@ export default async function BaseLayout({ children, locale }: Props) {
 	const messages = await getMessages();
 
 	return (
-		<html lang={locale}>
+		<html lang={locale} translate="no">
 			<body className="min-h-screen flex flex-col bg-background relative">
 				<NextIntlClientProvider locale={locale} messages={messages}>
 					<Header />
