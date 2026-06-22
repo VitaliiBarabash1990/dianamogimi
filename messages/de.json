@@ -8,7 +8,8 @@
 	"Hero": {
 		"title": "Nachhilfe in Mathe & Sprachen",
 		"subTitle": "Preiswerte, abwechslungsreiche Stunden, die dir helfen, dein volles Potenzial zu entfalten.",
-		"price": "Ab 20 €/Stunde",
+		"from": "Ab",
+		"price": "20 €/Stunde",
 		"cta": "Stunde buchen",
 		"link": "Alle Preise ansehen"
 	},

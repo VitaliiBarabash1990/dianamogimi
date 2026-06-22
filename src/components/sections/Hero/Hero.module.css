@@ -30,6 +30,9 @@
 	margin-top: 16px;
 	text-align: center;
 }
+.subTitle span {
+	font-weight: 500;
+}
 .linkBtn {
 	display: flex;
 	align-items: center;
